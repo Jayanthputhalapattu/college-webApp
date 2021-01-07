@@ -22,6 +22,7 @@ const Navba = ()=>{
           $(".navbar-menu").toggleClass("active");
         });
       });
+     
       $(document).on('ready',function ($) {
         $('.works').magnificPopup({
         type: 'image',
