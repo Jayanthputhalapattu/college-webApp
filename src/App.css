@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   text-decoration: none;
-  font-family: "Ubuntu", sans-serif;
+  /* font-family: 'Open Sans', sans-serif; */
+  font-family: 'Raleway', sans-serif;
   box-sizing: border-box;
 }
 
@@ -78,6 +79,7 @@ html {
   font-weight: 500;
   margin-left: 30px;
   transition: .2s linear;
+  text-decoration: none;
 }
 
 .navbar-menu a:hover {
@@ -128,19 +130,19 @@ html {
 }
 
 #home .content h1::after {
-  content: "SVU";
-  animation: textanim 10s linear infinite;
+  content: "WELCOME ";
+  animation: textanim 4s linear infinite;
 }
 
 @keyframes textanim {
   25% {
-      content: "A Student";
+      content: "TO";
   }
   50% {
-      content: "A professor";
+      content: "SVUCE";
   }
   75% {
-      content: "An Administration";
+      content: "OFFICIAL WEBSITE";
   }
 }
 
@@ -170,6 +172,7 @@ html {
   padding: 14px 0;
   border-radius: 6px;
   transition: .2s linear;
+  text-decoration: none;
 }
 
 #home .buttons a:hover,

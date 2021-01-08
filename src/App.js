@@ -1,10 +1,11 @@
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import {BrowserRouter as Router, Switch,Route} from "react-router-dom";
 import Navba from './layouts/Navbar';
 
 import MainHomePage from './Components/MainHomePage';
 import TEQIP from './Components/NavbarElements/TEQIP';
+
 function App() {
   return (
     <Router>

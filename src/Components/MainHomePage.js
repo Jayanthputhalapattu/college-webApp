@@ -5,7 +5,7 @@ const MainHomePage = () =>{
            <section id="home">
         <div class="inner-width">
             <div class="content">
-                <h1>Hi I'm </h1>
+                <h1></h1>
                 <div class="sm">
                     <a href="https://www.facebook.com/jyothish.chandra.167" class="fab fa-facebook-f"></a>
                     <a href="https://twitter.com/jyothishnsr" class="fab fa-twitter"></a>
@@ -14,7 +14,7 @@ const MainHomePage = () =>{
                     <a href="https://www.youtube.com/" class="fab fa-youtube"></a>
                 </div>
                 <div class="buttons">
-                    <a href="#contact">Contact me</a>
+                    <a href="#contact">Contact us</a>
                     <a href="#">Map</a>
                 </div>
             </div>
@@ -24,14 +24,14 @@ const MainHomePage = () =>{
         <div class="inner-width">
             <h1 class="section-title">About</h1>
             <div class="about-content">
-                <img src="../assets/images/pic.jpg" alt="" className="about-pic"/>
+                <img src="/pic.jpg"  className="about-pic"/>
                 <div class="about-text">
-                    <h2>Hi! I'm SVU-College Of Engineering</h2>
-                    <h3>
+                    <h2>SVU College of Engineering</h2>
+                    {/* <h3>
                         <span>Student</span>
                         <span>Professor</span>
                         <span>Administration</span>
-                    </h3>
+                    </h3> */}
                     <p>
                         The SVU College of Engineering, Sri Venkateswara University (abbreviated SVUCE) is a public engineering college and a division of Sri Venkateswara University located in Tirupati, India. The college offers 4-year B.Tech degree courses and 6-year Dual Degree(B.Tech & M.Tech), and two-year post-graduation courses with ten specializations with a total intake of 560 in B.Tech programmes and 180 in postgraduate programmes.
                     </p>
@@ -96,8 +96,8 @@ const MainHomePage = () =>{
             <div class="services">
                 <div class="service">
                     <i class="icon fas fa-paint-brush"></i>
-                    <h4>acadamics</h4>
-                    <p>Website and Appliction design with responsive.</p>
+                    <h4><b>Academics and faculty</b></h4>
+                    <p>Excelled with well established labs and experienced faculty</p>
                 </div>
 
                 <div class="service">
@@ -114,20 +114,20 @@ const MainHomePage = () =>{
 
                 <div class="service">
                     <i class="icon fab fa-android"></i>
-                    <h4>Android Apps</h4>
-                    <p>Android applications by local or international users.</p>
+                    <h4>Hostel info</h4>
+                    <p>Dedicated hostels for men and Women,This page will be updated Soon!</p>
                 </div>
 
                 <div class="service">
                     <i class="icon fas fa-credit-card"></i>
-                    <h4>payments</h4>
-                    <p>complete UI/UX will be used if you don't want with code.</p>
+                    <h4>Cultural Activities and Fests</h4>
+                    <p>Yearly cultural event Rhapsody and departmental National Level Technical Symposiums</p>
                 </div>
 
                 <div class="service">
                     <i class="icon fas fa-keyboard"></i>
                     <h4>Placements</h4>
-                    <p>content will be provided simple and comfortabel to Read.</p>
+                    <p>This page will be updated soon... with latest info..!</p>
                 </div>
             </div>
         </div>

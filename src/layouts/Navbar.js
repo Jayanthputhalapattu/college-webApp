@@ -48,7 +48,7 @@ const Navba = ()=>{
             <div className="navbar-menu">
                 <a href="/#home">Home</a>
                 <a href="/#about">About</a>
-                <a href="/#services">Services</a>
+                <a href="/#services">Quick Links</a>
                 <a href="/#education">Education</a>
                 <a href="/#works">Works</a>
                 <a href ="/teqip">TEQIP</a>
