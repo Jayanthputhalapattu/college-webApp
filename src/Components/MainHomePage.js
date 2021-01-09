@@ -8,8 +8,9 @@ const MainHomePage = () =>{
 <div>
     <Home />
     <About/>
-    <Services />
     <DepartmentsMainPage/>
+    <Services />
+   
 </div>
     
       
