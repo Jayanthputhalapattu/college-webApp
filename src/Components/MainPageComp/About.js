@@ -4,7 +4,7 @@ const About = () =>{
     <div class="inner-width">
         <h1 class="section-title">About</h1>
         <div class="about-content">
-            <img src="/pic.jpg"  className="about-pic"/>
+            <img src="/pic.jpg"  alt="#" className="about-pic" />
             <div class="about-text">
                 <h2>SVU College of Engineering</h2>
                 {/* <h3>

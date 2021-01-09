@@ -1,12 +1,12 @@
-export const cseFaculty = [
+//eslint-disable-next-line
+export const cseFaculty =[
     {
     "designation" : "professor",
     "Name" :"Dr. K.V. Madhumuthy",
     "Phone":"(+91)-9490507218, (+91)-877-2249191",
     "Email" :"kvmmurthy@svuce.org",
     "Details" :"NA"
-}
-,
+},
 {
     "designation" : "professor",
     "Name" :"Dr. P. Venkata Subba Reddy",

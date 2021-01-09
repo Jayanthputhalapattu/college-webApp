@@ -1,3 +1,4 @@
+//eslint-disable-next-line
 export const bog_names = [
 {
     "position" : "Chairman",

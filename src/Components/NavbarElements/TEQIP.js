@@ -8,7 +8,7 @@ const TEQIP = ()=>{
     
          <Container style={{paddingTop:100}}>  
 <Row>
-<Col ><img src="/teqip.png" width="200" height="90"/></Col>
+<Col ><img src="/teqip.png" width="200" height="90" alt="#"/></Col>
     <Col><h2>Welcome to Official page of TEQIP III of SVUCE</h2></Col>
     
     <p>Technical Education Quality Improvement Programme is a project of Government of India assisted by World Bank. The project was implemented to improve the quality of education in the technical institutions of India.</p>

@@ -1,13 +1,9 @@
 import React, {  } from "react";
-
-import { Link } from "react-router-dom";
 import { FaBars } from "react-icons/fa";
 import * as M from "materialize-css"
 
 const Navba = () =>{
-  
-  
-   
+
     document.addEventListener('DOMContentLoaded', function() {
       var elems = document.querySelectorAll('.sidenav');
       var instances = M.Sidenav.init(elems, { edge: 'left',
