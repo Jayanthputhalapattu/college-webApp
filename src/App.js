@@ -5,6 +5,9 @@ import Navba from './layouts/Navbar';
 
 import MainHomePage from './Components/MainHomePage';
 import TEQIP from './Components/NavbarElements/TEQIP';
+import Cse from './Components/Departments/Cse.js';
+
+
 
 function App() {
   return (
@@ -13,6 +16,7 @@ function App() {
       <Switch>
           <Route exact path="/" component={MainHomePage} />
           <Route  path="/teqip" component={TEQIP} />
+          <Route path="/cse" component={Cse}/>
       </Switch>
      
 </Router>

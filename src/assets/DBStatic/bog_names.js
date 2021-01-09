@@ -1,7 +1,7 @@
 export const bog_names = [
 {
     "position" : "Chairman",
-    "Name" : "Prof. S. NARASIMHA RAO Retired Professor, IIT Madras 4/25B North Street, Kapaleswar Nagar, Nelangiri,Chennai",
+    "Name" : "Prof. S. NARASIMHA RAO Retired Professor,IIT Madras 4/25B North Street, Kapaleswar Nagar, Nelangiri,Chennai",
     "Email":"kuttyharirao@gmail.com",
     "Phone" :"(+91)-9840778931",
 },

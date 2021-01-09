@@ -1,3 +1,9 @@
 body{
 font-family: 'Times New Roman', Times, serif;
 }
+.navb li a{
+  text-decoration: none;
+}
+.service a{
+  color: white;
+}
