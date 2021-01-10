@@ -15,7 +15,7 @@ const TEQIP = ()=>{
 </Row>
 
              <Row>
-             <Table hover responsive>
+             <Table hover responsive bordered>
          <thead>
              <th>Phase</th>
              <th>Objectives</th>
@@ -38,7 +38,7 @@ const TEQIP = ()=>{
              </Row>
              <h2>Board of Governors</h2>
 <Row>
-<Table hover responsive>
+<Table hover responsive bordered>
     <thead>
         <th>Position</th>
         <th>Name</th>
