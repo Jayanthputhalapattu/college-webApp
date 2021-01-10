@@ -19,7 +19,7 @@ const Cse  = ()=>{
             </div>
 
 <h2 style={{width:"80%",margin:"auto"}}>Faculty Details</h2>
-<Table style={{width:"80%",margin:"auto"}}>
+<Table style={{width:"80%",margin:"auto"}} responsive bordered>
     <tbody>
         <tr>
         <th>HOD</th>
@@ -35,7 +35,7 @@ const Cse  = ()=>{
     </tr>
     </tbody>
 </Table>
-<Table style={{width:"80%",margin:"auto",marginTop:20}} dark>
+<Table style={{width:"80%",margin:"auto",marginTop:20}} hover responsive bordered>
     <thead>
         <tr>
         <th>Designation</th>
