@@ -1,5 +1,9 @@
 export const bog_pdf_names = [
     {
+        "Filename" :"/bog_files/SVUCE_BOG_MINUTES_20201010.pdf",
+        "text" :"Resolution on 10-10-2020"
+    },
+    {
        "Filename":"/bog_files/SVUCE_BOG_Minutes_20200209.pdf" ,
        "text" : "Resolution of 09-02-2020"   
     }

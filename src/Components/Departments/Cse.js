@@ -53,7 +53,7 @@ const Cse  = ()=>{
                <td>{details.Name}</td>
                <td>{details.Phone}</td>
                <td>{details.Email}</td>
-               <td><a href={details.Details} >Details</a></td>
+               {details.Details==="NA" ? (<><td>NA</td></>):(<><td><a href={details.Details} >Details</a></td></>)}  
                </tr>
            ))}
         

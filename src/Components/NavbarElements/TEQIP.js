@@ -2,6 +2,7 @@ import { Container, Table ,Row, ListGroup, ListGroupItem, Col} from "reactstrap"
 import {data} from "../../assets/DBStatic/teqip"
 import {bog_names} from "../../assets/DBStatic/bog_names"
 import { bog_pdf_names } from "../../assets/DBStatic/bog_pdf_names";
+import { teqipFileInfo } from "../../assets/DBStatic/teqipFileInfo";
 const TEQIP = ()=>{
     console.log(data)
     return(
@@ -40,25 +41,28 @@ const TEQIP = ()=>{
 <Row>
 <Table hover responsive bordered>
     <thead>
-        <th>Position</th>
+        <th>S.No.</th>
         <th>Name</th>
-        <th>Email</th>
-        <th>Phone</th>
-        
+        <th>Position</th>
     </thead>
     <tbody>
           {bog_names.map((bog,index)=>(
               <tr>
-                  <th>{bog.position}</th>
-                  <td>{bog.Name}</td>
-                  <td>{bog.Email}</td>
-                  <td>{bog.Phone}</td>
+                  <th>{index +1}</th>
+                  <td>{bog.Name} {bog.Email} {bog.Phone}</td>
+                  <td>{bog.position}</td>
               </tr>
           ))}
     </tbody>
 </Table>
 </Row>
-    
+   <h3>SVU Annual Report</h3> 
+   <ListGroup>
+       {teqipFileInfo.map((Report,index)=>(
+           <ListGroupItem style={{paddingLeft:80}}><a href={Report.fileSource}>{Report.Heading}</a></ListGroupItem>
+        
+       ))}
+   </ListGroup>
     
 <h2> BOG RESOLUTIONS</h2>
 <ListGroup>

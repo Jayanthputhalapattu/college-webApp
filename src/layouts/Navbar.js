@@ -22,15 +22,16 @@ const Navba = () =>{
       <>
      <nav style={{background:"black"  ,position:"fixed",zIndex:1}} >
     <div className="nav-wrapper">
-      <a href="/" style={{marginLeft:"52px",fontSize:24,textDecoration:"none"}}>SVUCE</a>
+      <a href="/" style={{marginLeft:"52px",fontSize:24,textDecoration:"none"}}><img src="/svuce_logo.png" alt="#"/></a>
       <a href="/" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons" ><FaBars /></i></a>
       <ul className="right hide-on-med-and-down navli navb">
       <li><a href="/#" >HOME</a></li>
         <li><a href="/#about">ABOUT</a></li>
-        <li><a href="/#services" >SERVICES</a></li>
+       
         <li><a href="/#departments" >DEPARTMENTS</a></li>
+        <li><a href="/#services" >QUICK LINKS</a></li>
         <li><a href="/teqip" >TEQIP</a></li>
-        <li><a href="/contact" >WORKS</a></li>
+        <li><a href="/news" >NEWS</a></li>
       </ul>
     </div>
   </nav>
@@ -39,10 +40,11 @@ const Navba = () =>{
 
   <li><a href="/#" >HOME</a></li>
         <li><a href="/#about">ABOUT</a></li>
-        <li><a href="/#services" >SERVICES</a></li>
+       
         <li><a href="/#departments" >Departments</a></li>
+        <li><a href="/#services" >QUICK LINKS</a></li>
         <li><a href="/teqip" >TEQIP</a></li>
-        <li><a href="/contact" >WORKS</a></li>
+        <li><a href="/news" >NEWS</a></li>
   </ul> 
          </>   
            
