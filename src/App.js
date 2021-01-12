@@ -9,11 +9,11 @@ import Cse from './Components/Departments/Cse.js';
 
 import firebaseConfig from "./config/firebaseConfig"
 import NEWS from './Components/NavbarElements/NEWS';
-import Ece from './Components/Departments/Ece';
-import Che from './Components/Departments/Che';
-import CE from './Components/Departments/CE';
-import Me from './Components/Departments/Me';
-import EEE from './Components/Departments/EEE';
+// import Ece from './Components/Departments/Ece';
+// import Che from './Components/Departments/Che';
+// import CE from './Components/Departments/CE';
+// import Me from './Components/Departments/Me';
+// import EEE from './Components/Departments/EEE';
 firebase.initializeApp(firebaseConfig)
 function App() {
   
