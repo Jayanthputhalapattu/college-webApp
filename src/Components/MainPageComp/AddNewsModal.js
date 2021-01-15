@@ -13,7 +13,7 @@ const AddNewsModal= ({news,SetNews}) => {
     const handleUpload = () =>{
         if(newsHeading==="")
            return alert("Please enter all details")
-        axios.post("http://localhost:5000/news",{newsHeading:newsHeading,DriveLink:newsLink})
+        axios.post("https://svuceedu.netlify.app/.netlify/functions/server/news",{newsHeading:newsHeading,DriveLink:newsLink})
         .then((resp)=>{
              SetNews([resp.data,...news])
              setShow(false)

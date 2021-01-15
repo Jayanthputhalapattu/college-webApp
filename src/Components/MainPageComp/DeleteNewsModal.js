@@ -13,7 +13,7 @@ const DeleteNewsModal= ({news_id,SetNews,news_heading}) => {
     console.log(news_id)
     const handleDelete = (e) =>{
         e.preventDefault();
-      axios.delete(`http://localhost:5000/news/${news_id.toString()}`)
+      axios.delete(`https://svuceedu.netlify.app/.netlify/functions/server/news/${news_id.toString()}`)
       .then((resp)=>{
           
           SetNews((resp.data))
