@@ -34,7 +34,7 @@ const Navba = () =>{
       console.log(instances)
     });
     const handleLOgout = (e)=>{
-     
+      e.preventDefault();
       localStorage.clear()
       window.location.reload()
       (alert("Logged out succesfully"))
