@@ -16,7 +16,7 @@ const Home = () =>{
      if(ls)
      {
      if(ls._id){
-       axios.get(`https://svuceedu.netlify.app/auth/${ls._id}`,{headers: {"Access-Control-Allow-Origin": "*"}})
+       axios.get(`https://svuceedu.netlify.app/.netlify/functions/server/auth/${ls._id}`)
        .then((resp)=>{
       SetUser(resp.data)
        })
@@ -35,7 +35,7 @@ const Home = () =>{
   }
   const [news,SetNews] = useState([]);
   useEffect(()=>{
-    axios.get("https://svuceedu.netlify.app/news",{headers: {"Access-Control-Allow-Origin": "*"}})
+    axios.get("https://svuceedu.netlify.app/.netlify/functions/server/news")
     .then((resp)=>{
   
   SetNews(resp.data.news.reverse())
