@@ -16,7 +16,8 @@ body{
     position: relative;
     width: 350px;
     opacity: 0.9;
-    
+    overflow: scroll;
+    display: block;
   }
   .card-5 {
     box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
@@ -32,3 +33,32 @@ body{
         opacity: 0;
     }
   }
+
+.login{
+  height: 300px;
+   width: 300px;
+  border: 2px solid inherit;
+  border-radius: 8px;
+  margin: auto;
+  box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22); ;
+  margin-top: 100px;
+  background-color: white;
+}
+.form-login input[type="text"]{
+  margin-top: 20px;
+  width: 190px;
+  align-items: center;
+  margin-left:50px;
+  padding-left: 20px;
+}
+.form-login input[type="password"]{
+  margin-top: 20px;
+  width: 190px;
+  align-items: center;
+  margin-left:50px;
+  padding-left: 20px;
+}
+.Fanews:hover{
+  cursor: pointer;
+}
+

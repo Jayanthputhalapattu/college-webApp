@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {BrowserRouter as Router, Switch,Route} from "react-router-dom";
+import {BrowserRouter as Router,Route} from "react-router-dom";
 import Navba from './layouts/Navbar';
 import firebase from "firebase/app"
 import MainHomePage from './Components/MainHomePage';
@@ -9,6 +9,7 @@ import Cse from './Components/Departments/Cse.js';
 
 import firebaseConfig from "./config/firebaseConfig"
 import NEWS from './Components/NavbarElements/NEWS';
+import Login from './Components/Login/Login';
 // import Ece from './Components/Departments/Ece';
 // import Che from './Components/Departments/Che';
 // import CE from './Components/Departments/CE';
@@ -20,7 +21,7 @@ function App() {
   return (
     <Router>
     <Navba/>
-      <Switch>
+      {/* <Switch> */}
           <Route exact path="/" component={MainHomePage} />
           <Route  path="/teqip" component={TEQIP} />
           <Route path="/CSE" component={Cse}/>
@@ -30,7 +31,8 @@ function App() {
           {/* <Route path ="/ME" component={Me}/> */}
           {/* <Route path ="/EEE" component={EEE}/> */}
           <Route path="/news" component={NEWS}/>
-      </Switch>
+          <Route path="/login" component={Login} />
+      {/* </Switch> */}
      
 </Router>
   )
