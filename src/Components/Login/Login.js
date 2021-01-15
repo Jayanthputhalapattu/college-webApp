@@ -20,7 +20,7 @@ useEffect(()=>{
     const [Password,setPassword] = useState("")
     const handleSubmit = (e) =>{
         e.preventDefault();
-        axios.post("http://localhost:5000/auth/login",{"username" : Username,"password" : Password})
+        axios.post("https://svuceedu.netlify.app/auth/login",{"username" : Username,"password" : Password})
         .then((resp)=>{
             console.log(resp)
             if (resp.data.success){
