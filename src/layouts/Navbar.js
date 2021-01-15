@@ -67,7 +67,7 @@ const Navba = () =>{
         <li><a href="/#services" >QUICK LINKS</a></li>
         <li><a href="/teqip" >TEQIP</a></li>
         <li><a href="/news" >NEWS</a></li>
-        {isLoggedIn ? (<><li><a href="/" >LOGOUT</a></li></>):(<> <li><a href="/login" >LOGIN</a></li></>)}
+        {isLoggedIn ? (<><li><Button onClick={handleLOgout} >LOGOUT</Button></li></>):(<> <li><a href="/login" >LOGIN</a></li></>)}
   </ul> 
          </>   
            
