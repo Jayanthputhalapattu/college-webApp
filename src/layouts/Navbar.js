@@ -11,7 +11,6 @@ const Navba = () =>{
    const x = (JSON.parse(localStorage.getItem("user")));
    
    if(x){
-     console.log("ho")
     if(x.token && x._id)
     {
       setIsloggedIn(true)
@@ -53,7 +52,7 @@ const Navba = () =>{
         <li><a href="/#services" >QUICK LINKS</a></li>
         <li><a href="/teqip" >TEQIP</a></li>
         <li><a href="/news" >NEWS</a></li>
-       {isLoggedIn ? (<><li><Button onClick={handleLOgout} >LOGOUT</Button></li></>):(<> <li><a href="/login" >LOGIN</a></li></>)}
+       {isLoggedIn ? (<><Button onClick={handleLOgout}>LOGOUT</Button></>):(<> <li><a href="/login" >LOGIN</a></li></>)}
       </ul>
     </div>
   </nav>
@@ -67,7 +66,7 @@ const Navba = () =>{
         <li><a href="/#services" >QUICK LINKS</a></li>
         <li><a href="/teqip" >TEQIP</a></li>
         <li><a href="/news" >NEWS</a></li>
-        {isLoggedIn ? (<><li><Button onClick={handleLOgout} >LOGOUT</Button></li></>):(<> <li><a href="/login" >LOGIN</a></li></>)}
+        {isLoggedIn ? (<><Button onClick={handleLOgout} style={{marginLeft:30}}>LOGOUT</Button></>):(<> <li><a href="/login" >LOGIN</a></li></>)}
   </ul> 
          </>   
            

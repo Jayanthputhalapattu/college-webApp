@@ -9,14 +9,12 @@ const DeleteNewsModal= ({news_id,SetNews,news_heading}) => {
     const [show, setShow] = useState(false);
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-    // const [newNews,setNewNews] = useState([])
-    console.log(news_id)
     const handleDelete = (e) =>{
         e.preventDefault();
       axios.delete(`https://svuceedu.netlify.app/.netlify/functions/server/news/${news_id.toString()}`)
       .then((resp)=>{
           
-          SetNews((resp.data))
+          SetNews((resp.data).reverse())
           setShow(false)
              return alert("Data deleted Successfully")
       })
