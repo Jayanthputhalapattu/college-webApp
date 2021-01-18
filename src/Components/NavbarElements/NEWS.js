@@ -1,9 +1,18 @@
 
 import { Col, Container ,Row} from "reactstrap"
-import { news } from "../../assets/DBStatic/news"
-import AddNewsModal from "../MainPageComp/AddNewsModal"
 
+
+import {useState,useEffect} from "react";
+import axios from "axios"
 const NEWS = () =>{
+     const [news,SetNews] = useState([]);
+  useEffect(()=>{
+    axios.get("https://svuceedu.netlify.app/.netlify/functions/server/news")
+    .then((resp)=>{
+  
+  SetNews(resp.data.news.reverse())
+    })
+  },[])
    return(
        <Container>
            <Row>
@@ -12,13 +21,13 @@ const NEWS = () =>{
                <div style={{color:"blue",marginTop:100}}> 
               <h2 >NEWS</h2>
               
-                <div >
+               <div className="news">
                   {news.map((word,index)=>(
-                   <a href={word.Filename} style={{color:"#B9345A",fontWeight:"bold"}}><p><span style={{fontSize:20}}>{index+1}</span>. {word.name}</p></a>
+                   <a href={word.DriveLink} style={{color:"darkviolet"}}><p><span style={{fontSize:20}}>{index+1}</span>. {word.newsHeading}</p></a>
                   ))}
                 </div>
             </div>
-            <AddNewsModal buttonLabel="click"/>
+          
                </Col>
                
            </Row>

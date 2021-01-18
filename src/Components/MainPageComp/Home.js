@@ -49,7 +49,7 @@ const Home = () =>{
             <Col>
             
             </Col>
-            <Col></Col>
+            
             <Col>
            
             <div className="card card-5">
