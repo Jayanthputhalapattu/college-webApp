@@ -30,7 +30,7 @@ const AddNewsModal= ({news,SetNews}) => {
       Add News
     </Button>
  
-    <Modal show={show} onHide={handleClose} style={{marginTop:40,background:"none",width:"80%"}}>
+    <Modal show={show} onHide={handleClose} style={{marginTop:40,background:"none",width:"80%",height:"450px"}}>
       <Modal.Header closeButton>
         <Modal.Title>News Posting Details</Modal.Title>
       </Modal.Header>
