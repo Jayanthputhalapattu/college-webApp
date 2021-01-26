@@ -20,7 +20,7 @@ const Home = () =>{
        .then((resp)=>{
       SetUser(resp.data)
        })
-       .catch((err)=>console.error(err))
+       .catch((err)=>{SetUser({admin:false})})
      }
     }
     
