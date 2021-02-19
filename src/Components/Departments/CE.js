@@ -1,17 +1,13 @@
-import { Table } from "reactstrap";
+import { Container, Table,Row,Col } from "reactstrap";
 import { CivFaculty } from "../../assets/departments/CivFaculty";
 
 const CE = () =>{
   return(
-    <section id="about">
-    <div class="inner-width">
-        <h1 class="section-title">Civil Engineering</h1>
-        <div class="about-content">
-            {/* <!-- <img src="" alt="" class="about-pic"/> --> */}
-            <div class="about-text">
-                {/* <h2></h2> */}
-                
-                <p>
+      <Container>
+          <Row>
+              <Col>
+              <h1 class="section-title">Civil Engineering</h1>
+              <p>
                 The Department of Civil Engineering was established in 1959 with B.Tech. Course in Civil Engineering with an intake of 40 students. Subsequently M.Tech. programme was introduced in 1971 with four specializations viz. Environmental Engineering, Geotechnical Engineering, Hydraulics and Water Resources Engineering and Structural Engineering. So far 42 Ph.D. and 350 M.Tech. Degrees were awarded by the Department and Ph.D. works are in progress. Every year more than 60% of students of this Department obtain M.Tech. admissions in I.I.Sc. and I.I.T.s in various Civil Engineering disciplines. Centre for Rural Development and Appropriate Technology (CERDAT) was established in 1989 and is involved in conducting several awareness and training programmes for the rural youth. Water Technology Centre was established with financial assistance from UGC under DSA-SAP Programme in the year 1994. Committee of strengthening of Infrastructure for Science and Technology (COSIST) was sanctioned by UGC in the year 2000.
                 </p>
                 <p>
@@ -23,16 +19,18 @@ const CE = () =>{
 
 
                 </p>
-                </div>
-            </div>
-        </div>
-
-<h2 style={{width:"80%",margin:"auto"}}>Faculty Details</h2>
+     
+              </Col>
+              
+          </Row>
+          <Row>
+              <Col>
+              <h2 style={{width:"80%",margin:"auto"}}>Faculty Details- Civil Engg</h2>
 <Table style={{width:"80%",margin:"auto"}} responsive bordered>
 <tbody>
     <tr>
     <th>HOD</th>
-    <td></td>
+    <td>Prof. D.V.S.N. Murthy</td>
 </tr>
 <tr>
     <th>Chairman BOS(PG)</th>
@@ -40,7 +38,7 @@ const CE = () =>{
 </tr>
 <tr>
     <th>Chairman BOS(UG)</th>
-    <td></td>
+    <td>Prof. Ch. Sudha Rani</td>
 </tr>
 </tbody>
 </Table>
@@ -68,7 +66,10 @@ const CE = () =>{
     
 </tbody>
 </Table>
-</section>
+              </Col>
+          </Row>
+      </Container>
+
   )
 }
 export default CE;

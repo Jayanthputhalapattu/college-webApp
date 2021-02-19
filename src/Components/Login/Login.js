@@ -50,7 +50,7 @@ useEffect(()=>{
                       <form onSubmit={{handleSubmit}}  className="form-login">
                           <input type="text" placeholder="Enter Username" value={Username} onChange={(e)=>setUserName(e.target.value)}/>
                           <input type = "password" placeholder = "Enter Password" value={Password} onChange={(e)=>setPassword(e.target.value)}/>
-                          <Button color="primary" style={{marginLeft:105,marginTop:20}} onClick={handleSubmit}>Submit</Button>
+                          <Button color="primary" style={{marginLeft:105,marginTop:20}} onClick={handleSubmit}>Login</Button>
                       </form>
                    </div>
                          </Col>

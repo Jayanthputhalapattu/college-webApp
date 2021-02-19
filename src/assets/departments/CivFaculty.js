@@ -54,7 +54,7 @@ export const CivFaculty = [
         "Name" :"Prof. Ch. Sudha Rani",
         "Phone":"(+91)-9490017047",
         "Email" :"sudhajawahar@gmail.com",
-        "Details" :"/CivFiles/"
+        "Details" :"NA"
     },
     {
         "designation" : "Professor",

@@ -1,18 +1,14 @@
-import {  Table } from "reactstrap";
+import {  Col, Container, Table,Row } from "reactstrap";
 
 import { EceFaculty } from "../../assets/departments/EceFaculty";
 
 const Ece = () =>{
    return(
-    <section id="about">
-    <div class="inner-width">
-        <h1 class="section-title">Electronis and Communication Enggineering</h1>
-        <div class="about-content">
-            {/* <!-- <img src="" alt="" class="about-pic"/> --> */}
-            <div class="about-text">
-                {/* <h2></h2> */}
-                
-                <p>
+       <Container>
+           <Row>
+               <Col>
+               <h1 class="section-title">Electronis and Communication Enggineering</h1>
+               <p>
                 The discipline of Electronics and Communication Engineering was started under Department of Electrical and Electronics Engineering in 1971. After a long co-existence with EEE, due to administrative reasons and anticipated accelerated growth ,it is transformed and formed as the Department of Electronics and Communications Engineering in September, 2011.
 
 
@@ -23,10 +19,11 @@ const Ece = () =>{
                <p>
                Top class students who excelled in state-level entrance examination, EAMCET , are joining for B.Tech course in the department. With the training they receive in the department, they are performing excellently in competitive examinations like GATE,at national level. The ECE association is conducting invited talks , group discussions, paper contests to promote the academic zeal among the students. Students are getting good number of placements in companies like WIPRO, TCS, Intergraph, Infotech, TechMahindra, L&T etc..
                </p>
-                </div>
-            </div>
-        </div>
-
+               </Col>
+           </Row>
+        <Row>
+            <Col>
+            
 <h2 style={{width:"80%",margin:"auto"}}>Faculty Details</h2>
 <Table style={{width:"80%",margin:"auto"}} responsive bordered>
 <tbody>
@@ -36,11 +33,11 @@ const Ece = () =>{
 </tr>
 <tr>
     <th>Chairman BOS(PG)</th>
-    <td>Prof. S Narayana Reddy</td>
+    <td>Prof. B. Anuradha</td>
 </tr>
 <tr>
     <th>Chairman BOS(UG)</th>
-    <td>Prof. R V S Satyanarayana</td>
+    <td>	Prof. G. Srinivasulu</td>
 </tr>
 </tbody>
 </Table>
@@ -68,7 +65,10 @@ const Ece = () =>{
     
 </tbody>
 </Table>
-</section>
+            </Col>
+        </Row>
+       </Container>
+
    )
 }
 

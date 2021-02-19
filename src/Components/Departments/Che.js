@@ -1,17 +1,13 @@
-import { Table } from "reactstrap"
+import { Container, Table ,Row,Col} from "reactstrap"
 import { CheFaculty } from "../../assets/departments/CheFaculty"
 
 const Che=()=>{
     return(
-        <section id="about">
-        <div class="inner-width">
-            <h1 class="section-title">Chemical Enggineering</h1>
-            <div class="about-content">
-                {/* <!-- <img src="" alt="" class="about-pic"/> --> */}
-                <div class="about-text">
-                    {/* <h2></h2> */}
-                    
-                    <p>
+        <Container>
+            <Row>
+                <Col>
+                <h1 className="section-title">Chemical Enggineering</h1>
+                <p>
                     To be a world class department of chemical engineering in effective teaching and knowledge creation which is seamlessly integrated with bordering sciences and committed to ignite and propel young minds with passion for originality, innovation and excellence.
     
                    </p>
@@ -20,11 +16,10 @@ const Che=()=>{
 <b style={{paddingLeft:20}}>Basis: Publication OutputPeriod: 1998-2008</b>
 
                    </p>
-                    </div>
-                </div>
-            </div>
-    
-    <h2 style={{width:"80%",margin:"auto"}}>Faculty Details</h2>
+                </Col>
+            </Row>
+            <Row>
+            <h2 style={{width:"80%",margin:"auto"}}>Faculty Details</h2>
     <Table style={{width:"80%",margin:"auto"}} responsive bordered>
     <tbody>
         <tr>
@@ -65,7 +60,23 @@ const Che=()=>{
         
     </tbody>
     </Table>
-    </section>
+            </Row>
+        </Container>
+//         <section id="about">
+//         <div class="inner-width">
+
+//             <div class="about-content">
+//                 {/* <!-- <img src="" alt="" class="about-pic"/> --> */}
+//                 <div class="about-text">
+//                     {/* <h2></h2> */}
+                    
+
+//                     </div>
+//                 </div>
+//             </div>
+    
+
+//     </section>
     )
 }
 export default Che

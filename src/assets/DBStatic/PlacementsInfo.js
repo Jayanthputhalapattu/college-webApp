@@ -1,0 +1,42 @@
+export const PlacementsInfo = [
+    {
+        "year" : "2021",
+        "CHE" : ["totalStudents","StudentsPlaced"],
+        "CIV" : ["totalStudents","StudentsPlaced"],
+        "EEE" : ["totalStudents","StudentsPlaced"],
+        "ECE" : ["totalStudents","StudentsPlaced"],
+        "MEC" : ["totalStudents","StudentsPlaced"],
+        "CSE" : ["totalStudents","StudentsPlaced"],
+        "fileLink" :"/linkhere",
+    },
+    {
+        "year" : "2020",
+        "CHE" : ["totalStudents","StudentsPlaced"],
+        "CIV" : ["totalStudents","StudentsPlaced"],
+        "EEE" : ["totalStudents","StudentsPlaced"],
+        "ECE" : ["totalStudents","StudentsPlaced"],
+        "MEC" : ["totalStudents","StudentsPlaced"],
+        "CSE" : ["totalStudents","StudentsPlaced"],
+        "fileLink" :"/linkhere",
+    },
+    {
+        "year" : "2019",
+        "CHE" : ["totalStudents","StudentsPlaced"],
+        "CIV" : ["totalStudents","StudentsPlaced"],
+        "EEE" : ["totalStudents","StudentsPlaced"],
+        "ECE" : ["totalStudents","StudentsPlaced"],
+        "MEC" : ["totalStudents","StudentsPlaced"],
+        "CSE" : ["totalStudents","StudentsPlaced"],
+        "fileLink" :"/linkhere",
+    },
+    {
+        "year" : "2018",
+        "CHE" : ["totalStudents","StudentsPlaced"],
+        "CIV" : ["totalStudents","StudentsPlaced"],
+        "EEE" : ["totalStudents","StudentsPlaced"],
+        "ECE" : ["totalStudents","StudentsPlaced"],
+        "MEC" : ["totalStudents","StudentsPlaced"],
+        "CSE" : ["totalStudents","StudentsPlaced"],
+        "fileLink" :"/linkhere",
+    }
+]

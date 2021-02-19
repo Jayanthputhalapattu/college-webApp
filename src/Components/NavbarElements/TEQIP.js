@@ -1,13 +1,13 @@
-import { Container, Table ,Row, ListGroup, ListGroupItem, Col} from "reactstrap";
 import {data} from "../../assets/DBStatic/teqip"
 import {bog_names} from "../../assets/DBStatic/bog_names"
 import { bog_pdf_names } from "../../assets/DBStatic/bog_pdf_names";
 import { teqipFileInfo } from "../../assets/DBStatic/teqipFileInfo";
-const TEQIP = ()=>{
-    console.log(data)
+import { Container, Table ,Row, ListGroup, ListGroupItem, Col} from "reactstrap";
+const Teqip = ()=>{
+    
     return(
     
-         <Container style={{paddingTop:100}}>  
+         <Container>  
 <Row>
 <Col ><img src="/teqip.png" width="200" height="90" alt="#"/></Col>
     <Col><h2>Welcome to Official page of TEQIP III of SVUCE</h2></Col>
@@ -59,7 +59,7 @@ const TEQIP = ()=>{
    <h3>SVU Annual Report</h3> 
    <ListGroup>
        {teqipFileInfo.map((Report,index)=>(
-           <ListGroupItem style={{paddingLeft:80}}><a href={Report.fileSource}>{Report.Heading}</a></ListGroupItem>
+           <ListGroupItem style={{paddingLeft:80}} key={index}><a href={Report.fileSource}>{Report.Heading}</a></ListGroupItem>
         
        ))}
    </ListGroup>
@@ -74,10 +74,10 @@ const TEQIP = ()=>{
         </ListGroupItem>
     ))}
     </ListGroup>
-    {/* //  </section>  */}
+  
     </Container>
     
 
     )
 }
-export default TEQIP;
+export default Teqip;
