@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
-import {BrowserRouter as Router,Route} from "react-router-dom";
+import {BrowserRouter as Router, Route,Switch} from "react-router-dom";
 import Navba from './layouts/Navbar';
 import firebase from "firebase/app"
 import MainHomePage from './Components/MainHomePage';
@@ -26,38 +26,43 @@ import Healthcentre from './Components/NavbarElements/Facilities/Health_center';
 import Alumni from './Components/NavbarElements/Facilities/Alumni';
 import NCC_NSS from './Components/NavbarElements/Facilities/NCC_NSS';
 import Contact from './Components/NavbarElements/Contact';
+import WebTeam from './Components/Credits/WebTeam';
+import NotFound from './layouts/NotFound';
 
 firebase.initializeApp(firebaseConfig)
 function App() {
-  
-  return (
-    <Router>
-    <Navba/>
-      {/* <Switch> */}
-          <Route exact path="/" component={MainHomePage} />
-         
-          <Route path="/CSE" component={Cse}/>
-          <Route path ="/ECE" component={Ece}/>
-          <Route path ="/ChE" component={Che}/>
-          <Route path ="/CE" component={CE}/>
-          <Route path ="/ME" component={Me}/>
-          <Route path ="/EEE" component={EEE}/>
-          <Route path="/newsportal" component={NEWS}/>
-          <Route path="/login" component={Login} />
-          <Route path="/TQ" component ={Teqip} />
-         <Route path="/placements" component={Placements} />
-         <Route path="/courses_offered" component={CoursesOffered} />
-         <Route path="/hostels" component={MensHostel} />
-         <Route path="/library" component={Library} />
-         <Route path="/healthcenter" component={Healthcentre} />
-         <Route path="/alumni" component={Alumni} />
-         <Route path="/nss_ncc" component={NCC_NSS} />
-         <Route path="/contact" component ={Contact} />
-       <Footer /> 
-      {/* </Switch> */}
-     
-</Router>
-  )
+
+    return (
+        <Router>
+            <Navba/> 
+            <Switch>
+            <Route exact path="/" component={MainHomePage}/>
+
+            <Route path="/CSE" component={Cse}/>
+            <Route path="/ECE" component={Ece}/>
+            <Route path="/ChE" component={Che}/>
+            <Route path="/CE" component={CE}/>
+            <Route path="/ME" component={Me}/>
+            <Route path="/EEE" component={EEE}/>
+            <Route path="/newsportal" component={NEWS}/>
+            <Route path="/login" component={Login}/>
+            <Route path="/TQ" component ={Teqip}/>
+            <Route path="/teqip" component={Teqip} />
+            <Route path="/placements" component={Placements}/>
+            <Route path="/courses_offered" component={CoursesOffered}/>
+            <Route path="/hostels" component={MensHostel}/>
+            <Route path="/library" component={Library}/>
+            <Route path="/healthcenter" component={Healthcentre}/>
+            <Route path="/alumni" component={Alumni}/>
+            <Route path="/nss_ncc" component={NCC_NSS}/>
+            <Route path="/contact" component ={Contact}/>
+            {/* <Route path="/webteam" component={WebTeam} /> */}
+            <Route path="*" component={NotFound} />
+           
+            </Switch>
+            <Footer/> 
+        </Router>
+    )
 }
 
 export default App;

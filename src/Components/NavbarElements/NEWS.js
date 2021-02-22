@@ -42,15 +42,6 @@ const NEWS = () =>{
            <Row>
               
                <Col>
-               {/* <div style={{marginTop:100,backgroundColor:"#605c5b",borderTop:"10px solid #f03c02" ,padding:"10px 20px 10px 20px"}}> 
-              <h2 style={{color:"white"}}>NEWS</h2>
-              
-               <div className="news">
-                  {news.map((word,index)=>(
-                   <a href={word.DriveLink} style={{color:"#90b5dd"}}><p><span style={{fontSize:20}}>{index+1}</span>. {word.newsHeading}</p></a>
-                  ))}
-                </div>
-            </div> */}
            <div style={{marginTop:100,backgroundColor:"#605c5b",borderTop:"6px solid #f03c02" ,padding:"10px 20px 10px 20px",marginBottom:100}}> 
              
              <h2 style={{color:"white"}}>NEWS

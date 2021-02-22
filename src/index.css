@@ -25,3 +25,25 @@
 .Fanews:hover{
   cursor: pointer;
 }
+.webteam{
+  background-color:whitesmoke;
+}
+.cardteams{
+  width: 350px;
+  height: 250px;
+  border: 2px solid black;
+  border-radius: 10px 10px;
+}
+.notfound{
+  animation-name: makedelay;
+  animation-duration: 3s;
+  animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+  animation-iteration-count: 1;
+  color:"red";
+  font-weight: bolder;
+}
+@keyframes makedelay{
+0% {opacity:0}
+100%{opacity: 1;}
+}
+

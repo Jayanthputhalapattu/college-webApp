@@ -36,7 +36,7 @@ const Home = () =>{
         </div>
 
        
-        <div className="carousel-item"style={{backgroundImage: "url(/img/car.jpeg)"}}>
+        <div className="carousel-item"style={{backgroundImage: "url(/img/img-3.jpeg)"}}>
           <div className="carousel-container">
             <div className="carousel-content animate__animated animate__fadeInUp">
             <h2>Welcome to <span>SVUCE official Website</span></h2>
@@ -80,7 +80,7 @@ The official Alumni Network of SVU College Of Engineering website is <a href="sv
 
         <div className="row">
           <div className="col-lg-9 text-center text-lg-left">
-            <h3>We are celebrating 60th year of  <span>academic excellence</span></h3>
+            <h3>We are celebrating 60th year of  <span>Academic Excellence</span></h3>
             <p> SVUCE, a constituent college of Sri Venkateswara University, Tirupati, was established in 1959 and started functioning from 10 August 1959.</p>
 
 {/* <p>The foundation stone for the college Main Building was laid on 13 October 1959 by Pandit Jawaharlal Nehru, the first Prime Minister of India. It was declared open on 21 November 1968 by Sri. K Brahmananda Reddy, the then Chief Minister of Andhra Pradesh.</p>

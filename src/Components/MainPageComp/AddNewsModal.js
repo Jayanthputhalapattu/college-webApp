@@ -26,11 +26,11 @@ const AddNewsModal= ({news,SetNews}) => {
     }
     return (
     <>
-    <Button color="success" onClick={handleShow}>
+    <Button color="success" onClick={handleShow} style={{margin:"auto"}}>
       Add News
     </Button>
  
-    <Modal show={show} onHide={handleClose} style={{marginTop:40,background:"none",width:"80%",height:"450px"}}>
+    <Modal show={show} onHide={handleClose} style={{marginTop:50}}>
       <Modal.Header closeButton>
         <Modal.Title>News Posting Details</Modal.Title>
       </Modal.Header>

@@ -26,7 +26,7 @@ const DeleteNewsModal= ({news_id,SetNews,news_heading}) => {
       Delete
     </Button>
 
-    <Modal show={show} onHide={handleClose} style={{marginTop:40,background:"none",width:"80%"}}>
+    <Modal show={show} onHide={handleClose} style={{marginTop:40}}>
       <Modal.Header closeButton>
         <Modal.Title>Delete Confirmation</Modal.Title>
       </Modal.Header>

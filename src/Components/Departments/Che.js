@@ -62,21 +62,7 @@ const Che=()=>{
     </Table>
             </Row>
         </Container>
-//         <section id="about">
-//         <div class="inner-width">
 
-//             <div class="about-content">
-//                 {/* <!-- <img src="" alt="" class="about-pic"/> --> */}
-//                 <div class="about-text">
-//                     {/* <h2></h2> */}
-                    
-
-//                     </div>
-//                 </div>
-//             </div>
-    
-
-//     </section>
     )
 }
 export default Che
