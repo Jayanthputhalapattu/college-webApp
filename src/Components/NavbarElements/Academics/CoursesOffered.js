@@ -5,6 +5,7 @@ const CoursesOffered = () =>{
 <Container>
     <Row>
         <Col>
+        <h3 style={{color:"red",textAlign:"center"}}>NOTE : THIS IS PAGE IS UNDER DEVELOPEMENT</h3>
           <h2 className="section-title">Courses Offered</h2>
           <h4>B.Tech</h4>
           <Card style={{marginBottom:40}}>

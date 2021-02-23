@@ -7,7 +7,10 @@ import  {PlacementsInfo} from "../../assets/DBStatic/PlacementsInfo"
        
        <Row>
          <Col>
+         
            <h2 className="section-title">Placements</h2>
+           <h3 style={{color:"red",textAlign:"center"}}>NOTE : THIS IS PAGE IS UNDER DEVELOPEMENT</h3>
+          
            <Card style={{marginBottom:40}}>
              <CardBody>
              <CardTitle tag="h4">Placement Office details</CardTitle>
