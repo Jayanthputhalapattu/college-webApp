@@ -1,15 +1,10 @@
-import React,{useState} from "react"
-import { Button, Modal, ModalBody, ModalFooter} from 'reactstrap';
+import React, {useState} from "react"
+import {Button, Modal, ModalBody, ModalFooter,ModalHeader} from 'reactstrap';
 
 const Footer = () => {
-    const [open, setOpen] = useState(false);
-    const [focusAfterClose, setFocusAfterClose] = useState(true);
+    const [modal, setModal] = useState(false);
 
-    const toggle = () => setOpen(!open);
-    // eslint-disable-next-line
-    const handleSelectChange = ({target: { value }}) => {
-        setFocusAfterClose(JSON.parse(value));
-    }
+  const toggle = () => setModal(!modal);
     return (
         <div id="footer">
             <div className="footer-top">
@@ -91,23 +86,41 @@ const Footer = () => {
                         &copy; Copyright
                         <strong>
                             <span> Developed by
-                                <span  onClick={toggle} style={{color:"red",cursor:"pointer"}} > Web-Team</span>
+                                <span
+                                    onClick={toggle}
+                                    style={{
+                                    color: "red",
+                                    cursor: "pointer"
+                                }}> Web-Team</span>
                             </span>
                         </strong>. All Rights Reserved
                     </div>
                     <div className="credits"></div>
                 </div>
-                <Modal returnFocusAfterClose={focusAfterClose} isOpen={open}>
-                <ModalBody>
-                    <h2>DEVELOPERS</h2>
-                    <a href="https://www.linkedin.com/in/jayanth-puthalapattu/" style={{color:"blue"}}>JAYANTH PUTHALAPATTU,</a><span>MERN STACK DEV</span>
-                    <br/>
-                    <a href="https://www.linkedin.com/in/jayanth-puthalapattu/" style={{color:"blue"}}>NSR JYOTHISH CHANDRA,</a><span>FULL STACK DEV</span>
+                {/* <Button color="danger" onClick={toggle}>Web Team</Button> */}
+                <Modal isOpen={modal} toggle={toggle} style={{marginTop:100}}>
+                    <ModalHeader toggle={toggle}>DEVELOPERS</ModalHeader>
+                    <ModalBody>
+                      
+                        <a
+                            href="https://www.linkedin.com/in/jayanth-puthalapattu/"
+                            style={{
+                            color: "blue"
+                        }}>JAYANTH PUTHALAPATTU,</a>
+                        <span>MERN STACK DEV</span>
+                        <br/>
+                        <a
+                            href="https://www.linkedin.com/in/jyothish-chandra-nsr-bba0a1183/"
+                            style={{
+                            color: "blue"
+                        }}>NSR JYOTHISH CHANDRA,</a>
+                        <span>FULL STACK DEV</span>
                     </ModalBody>
-                <ModalFooter>
-                    <Button color="primary" onClick={toggle}>Close</Button>
-                </ModalFooter>
-            </Modal>
+                    <ModalFooter>
+                      
+                        <Button color="secondary" onClick={toggle}>Cancel</Button>
+                    </ModalFooter>
+                </Modal>
             </div>
 
         </div>

@@ -49,18 +49,6 @@ const Navba = () => {
                             <li>
                                 <a href="/">Home</a>
                             </li>
-                            {/* <li className="drop-down"><a href={window.location}>About</a>
-          <ul>
-            <li><a href="/principal">Principal</a></li>
-            <li><a href="/vicepeincipal">Vice-Principal</a></li>
-            <li className="drop-down"><a href={window.location}>Committees</a>
-              <ul>
-                <li><a href="/constituent_committees">Constituent Committees</a></li>
-                <li><a href="/non_constituent_committees">Non-Constituent Committees</a></li>
-              </ul>
-            </li>
-          </ul>
-        </li> */}
                             <li className="drop-down">
                                 <a href={window.location}>Academics</a>
                                 <ul>
@@ -186,15 +174,15 @@ const Navba = () => {
                             {isLoggedIn
                                 ? (
                                     <li>
-                                        
-                                            <Button
-                                                onClick={handleLOgout}
-                                                style={{
-                                                marginTop: 10,
-                                                fontSize: 15,
-                                                padding: "6px 10px"
-                                            }}>LOGOUT</Button>
-                                    
+
+                                        <Button
+                                            onClick={handleLOgout}
+                                            style={{
+                                            marginTop: 10,
+                                            fontSize: 15,
+                                            padding: "6px 10px"
+                                        }}>LOGOUT</Button>
+
                                     </li>
                                 )
                                 : (
