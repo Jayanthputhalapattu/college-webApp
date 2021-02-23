@@ -186,7 +186,7 @@ const Navba = () => {
                             {isLoggedIn
                                 ? (
                                     <li>
-                                        <a>
+                                        
                                             <Button
                                                 onClick={handleLOgout}
                                                 style={{
@@ -194,7 +194,7 @@ const Navba = () => {
                                                 fontSize: 15,
                                                 padding: "6px 10px"
                                             }}>LOGOUT</Button>
-                                        </a>
+                                    
                                     </li>
                                 )
                                 : (

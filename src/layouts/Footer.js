@@ -6,6 +6,7 @@ const Footer = () => {
     const [focusAfterClose, setFocusAfterClose] = useState(true);
 
     const toggle = () => setOpen(!open);
+    // eslint-disable-next-line
     const handleSelectChange = ({target: { value }}) => {
         setFocusAfterClose(JSON.parse(value));
     }

@@ -26,7 +26,7 @@ import Healthcentre from './Components/NavbarElements/Facilities/Health_center';
 import Alumni from './Components/NavbarElements/Facilities/Alumni';
 import NCC_NSS from './Components/NavbarElements/Facilities/NCC_NSS';
 import Contact from './Components/NavbarElements/Contact';
-import WebTeam from './Components/Credits/WebTeam';
+// import WebTeam from './Components/Credits/WebTeam';
 import NotFound from './layouts/NotFound';
 
 firebase.initializeApp(firebaseConfig)
