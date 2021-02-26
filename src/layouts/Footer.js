@@ -110,7 +110,7 @@ const Footer = () => {
                         <span>MERN STACK DEV</span>
                         <br/>
                         <a
-                            href="https://www.linkedin.com/in/jyothish-chandra-nsr-bba0a1183/"
+                            href="https://gracious-williams-9a607a.netlify.app/?#"
                             style={{
                             color: "blue"
                         }}>NSR JYOTHISH CHANDRA,</a>
