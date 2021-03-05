@@ -1,7 +1,8 @@
 import React, {useEffect, useState} from "react";
 import {Button} from "reactstrap";
 import { Academic_regulations_btech } from "../assets/DBStatic/academics/academic_regulations";
-
+import { Syllabus_btech } from "../assets/DBStatic/academics/syllabus_btech";
+import { Syllabus_mtech } from "../assets/DBStatic/academics/syllabus_mtech";
 const Navba = () => {
     const [isLoggedIn,
         setIsloggedIn] = useState(false)
@@ -51,6 +52,12 @@ const Navba = () => {
                                 <a href="/">Home</a>
                             </li>
                             <li className="drop-down">
+                                <a >About</a>
+                                <ul>
+                                   <li><a href="/principals">Principals</a></li>
+                                </ul>
+                            </li>
+                            <li className="drop-down">
                                 <a href={window.location}>Academics</a>
                                 <ul>
                                     <li>
@@ -67,12 +74,11 @@ const Navba = () => {
                                             <li className="drop-down">
                                                 <a>B.Tech</a>
                                                 <ul>
-                                                {Academic_regulations_btech.map((arb)=>(
-                                                    <li>
-                                                        <a href={arb.location}>{arb.Filename}</a>
-                                                    </li>
-                                                ))}
+                                                    <li><a href="/academics/B.Tech.(CBCS) Regulations, 2018(R-2018).pdf">B.Tech.(CBCS) Regulations, 2018(R-2018)</a></li>
+                                                    <li ><a href="/academics/Modifications of BTech Regulations on Open Electives.pdf">Modifications of BTech Regulations on Open Electives</a></li>
+                                                     <li><a href="/academics/B.Tech Regulations ,2020(R-20).pdf">B.Tech Regulations ,2020(R-20)</a></li>
                                                 </ul>
+                                                
                                             </li>
                                             <li>
                                                 <a>M.Tech</a>
@@ -86,15 +92,23 @@ const Navba = () => {
                                             <li className="drop-down">
                                                 <a>B.Tech</a>
                                                 <ul>
-                                                {Academic_regulations_btech.map((arb)=>(
+                                                {Syllabus_btech.map((arb)=>(
                                                     <li>
                                                         <a href={arb.location}>{arb.Filename}</a>
                                                     </li>
                                                 ))}
                                                 </ul>
                                             </li>
-                                            <li>
+                                            <li className="drop-down">
                                                 <a>M.Tech</a>
+                                                <ul>
+                                                 {Syllabus_mtech.map((arb)=>(
+                                                    <li>
+                                                        <a href={arb.location}>{arb.Filename}</a>
+                                                    </li>
+                                                ))}
+                                                </ul>
+                                               
                                             </li>
                                         </ul>
                                     </li>

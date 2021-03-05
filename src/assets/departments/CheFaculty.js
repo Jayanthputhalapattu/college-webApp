@@ -1,11 +1,5 @@
 export const CheFaculty = [
-    {
-        "designation" : "Professor",
-        "Name" :"Dr. G. Prabhakar",
-        "Phone":"(+91)-877-2249577",
-        "Email" :"Prabhakarg14@gmail.com",
-        "Details" :"NA"
-    },
+ 
     {
         "designation" : "Assistant Professor",
         "Name" :"Dr. P. Akhila Swathantra",

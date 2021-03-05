@@ -22,7 +22,7 @@ export const EceFaculty = [
     },
     {
         "designation" : "Professor",
-        "Name" :"Prof. S. Varadarajan (On deputation)",
+        "Name" :"Prof. S. Varadarajan",
         "Phone":"	(+91)-9949300990",
         "Email" :"varadasouri@gmail.com",
         "Details" :"NA"

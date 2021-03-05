@@ -26,6 +26,7 @@ import Healthcentre from './Components/NavbarElements/Facilities/Health_center';
 import Alumni from './Components/NavbarElements/Facilities/Alumni';
 import NCC_NSS from './Components/NavbarElements/Facilities/NCC_NSS';
 import Contact from './Components/NavbarElements/Contact';
+import Principals from "./Components/NavbarElements/About/Principal"
 // import WebTeam from './Components/Credits/WebTeam';
 import NotFound from './layouts/NotFound';
 
@@ -57,8 +58,9 @@ function App() {
             <Route path="/nss_ncc" component={NCC_NSS}/>
             <Route path="/contact" component ={Contact}/>
             {/* <Route path="/webteam" component={WebTeam} /> */}
+            <Route path="/" component ={Principals}/>
             <Route path="*" component={NotFound} />
-           
+            
             </Switch>
             <Footer/> 
         </Router>

@@ -28,11 +28,11 @@ const Che=()=>{
     </tr>
     <tr>
         <th>Chairman BOS(PG)</th>
-        <td>Dr. G Prabhakar</td>
+        <td></td>
     </tr>
     <tr>
         <th>Chairman BOS(UG)</th>
-        <td>Dr. G Prabhakar</td>
+        <td></td>
     </tr>
     </tbody>
     </Table>
