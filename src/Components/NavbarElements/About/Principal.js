@@ -1,5 +1,5 @@
 import {Col, Container, Table, Row} from "reactstrap";
-import  {P_details} from "../../assets/DBStatic/P_details"
+import  {P_details} from "./P_details"
 const Principals = () =>{
    return(
        <Container>
@@ -28,17 +28,24 @@ const Principals = () =>{
                         responsive
                         bordered>
                         
+                        <thead>
+                          <tr>
+                              <th>Name</th>
+                               <th>Period</th>
+                                <th>Phone</th>
+                                 <th>Email</th>
+                           </tr>
+                           </thead>
                         <tbody>
-
-                            {Principals_details.map((details, index) => (
+                           
+                            {P_details.map((details, index) => (
                                 <tr>
                                    
                                     <td>{details.Name}</td>
+                                    <td>{details.Period}</td>
                                     <td>{details.Phone}</td>
                                     <td>{details.Email}</td>
-                                    {details.Details === "NA"
-                                        ? (<><td> NA </td></>)
-                                        : ( <><td> <a href={details.Details}>Details</a> </td></>)}
+                                    
                                 </tr>
                             ))}
 
