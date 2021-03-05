@@ -6,7 +6,7 @@ const Principals = () =>{
             <Row>
                 <Col>
                     <h1 class="section-title">Principals</h1>
-                    
+                               <h3 style={{color:"red",textAlign:"center"}}>NOTE : THIS IS PAGE IS UNDER DEVELOPEMENT</h3>
                 </Col>
             </Row>
             <Row>

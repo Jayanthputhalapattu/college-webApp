@@ -15,7 +15,8 @@ const Home = () =>{
             <div className="carousel-content animate__animated animate__fadeInUp">
               <h2>Welcome to <span>SVUCE official Website</span></h2>
               <p>
-              The SVU College of Engineering, Sri Venkateswara University (abbreviated SVUCE) is a public engineering college and a division of Sri Venkateswara University located in Tirupati, India. The college offers 4-year B.Tech degree courses and 6-year Dual Degree(B.Tech & M.Tech), and two-year post-graduation courses with ten specializations with a total intake of 560 in B.Tech programmes and 180 in postgraduate programmes.
+              The Sri Venkateswara University College of Engineering (SVUCE),Tirupati is a Constituent and Autonomous College of 
+              Sri Venkateswara University, Tirupati, Andhra Pradesh, India. The college offers B.Tech degree ,two-year M.Tech Degree and Ph.D. programmes.
                 </p>
               {/* <div className="text-center"><a href="" className="btn-get-started">Read More</a></div> */}
             </div>
@@ -36,14 +37,14 @@ const Home = () =>{
         </div>
 
        
-        <div className="carousel-item"style={{backgroundImage: "url(/img/img.jpeg)" ,backgroundSize:"auto"}}>
+        {/* <div className="carousel-item"style={{backgroundImage: "url(/img/img.jpeg)" ,backgroundSize:"auto"}}>
           <div className="carousel-container">
             <div className="carousel-content animate__animated animate__fadeInUp">
             <h2>Welcome to <span>SVUCE official Website</span></h2>
               {/* <div className="text-center"><a href="" className="btn-get-started">Read More</a></div>
            
              */}
-             <p>
+             {/* <p>
              The college alumni has presence all over the globe. The alumni association of SVUCE was started in 1965. It was formally registered in the year 2001. The association is currently presided by B. Gangi Reddy.
 
 There are hundreds of SVU alumni based in western countries such as the UK, Canada, Australia, and UK. This powerful alumni network has led to job opportunities for many graduates.
@@ -54,8 +55,9 @@ The official Alumni Network of SVU College Of Engineering website is <a href="sv
           </div>
         </div>
 
-      </div>
-
+     
+       */} 
+ </div>
       <a className="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
         <span className="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
         <span className="sr-only">Previous</span>
