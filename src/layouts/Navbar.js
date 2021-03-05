@@ -80,9 +80,11 @@ const Navba = () => {
                                                 </ul>
                                                 
                                             </li>
-                                            <li>
+                                            <li className="drop-down">
                                                 <a>M.Tech</a>
-                                               
+                                                <ul>
+                                               <li><a href="/academics/M.Tech (CBCS) Regulations,2018.pdf">M.Tech (CBCS) Regulations,2018</a></li>
+                                            </ul>
                                             </li>
                                         </ul>
                                     </li>
