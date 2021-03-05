@@ -36,7 +36,7 @@ const Home = () =>{
         </div>
 
        
-        <div className="carousel-item"style={{backgroundImage: "url(/img/img-3.jpeg)" ,backgroundSize:"auto"}}>
+        <div className="carousel-item"style={{backgroundImage: "url(/img/img.jpeg)" ,backgroundSize:"auto"}}>
           <div className="carousel-container">
             <div className="carousel-content animate__animated animate__fadeInUp">
             <h2>Welcome to <span>SVUCE official Website</span></h2>

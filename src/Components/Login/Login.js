@@ -1,6 +1,6 @@
 import { Button} from "reactstrap";
 import { useEffect, useState } from "react";
-import { Col, Container,Row } from "reactstrap";
+import { Col, Container,Row ,Input} from "reactstrap";
 import axios from "axios";
 import {Redirect} from "react-router-dom"
 const Login = () =>
@@ -42,14 +42,14 @@ useEffect(()=>{
             
                  <Container >
                      
-                     <Row style={{width:"100%"}}>
+                     <Row style={{width:"100%",paddingBottom:100}}>
                          <Col >
                              
                          <div className="login" >
                          <h3 style={{textAlign:"center",paddingTop:20,color:"blueviolet"}}>SVUCE-LOGIN</h3>
                       <form onSubmit={{handleSubmit}}  className="form-login">
-                          <input type="text" placeholder="Enter Username" value={Username} onChange={(e)=>setUserName(e.target.value)}/>
-                          <input type = "password" placeholder = "Enter Password" value={Password} onChange={(e)=>setPassword(e.target.value)}/>
+                          <Input type="text" placeholder="Enter Username" value={Username} onChange={(e)=>setUserName(e.target.value)}/>
+                          <Input type = "password" placeholder = "Enter Password" value={Password} onChange={(e)=>setPassword(e.target.value)}/>
                           <Button color="primary" style={{marginLeft:105,marginTop:20}} onClick={handleSubmit}>Login</Button>
                       </form>
                    </div>

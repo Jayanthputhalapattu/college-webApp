@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from "react";
 import {Button} from "reactstrap";
+import { Academic_regulations_btech } from "../assets/DBStatic/academics/academic_regulations";
 
 const Navba = () => {
     const [isLoggedIn,
@@ -58,26 +59,42 @@ const Navba = () => {
                                     <li>
                                         <a href="/linktopdf">Academic Calendar</a>
                                     </li>
+
                                     <li className="drop-down">
                                         <a href="/academic_regulations">
                                             Academic Regulations</a>
                                         <ul>
-                                            <li>
-                                                <a href="/btech_reg_file.pdf">B.Tech</a>
+                                            <li className="drop-down">
+                                                <a>B.Tech</a>
+                                                <ul>
+                                                {Academic_regulations_btech.map((arb)=>(
+                                                    <li>
+                                                        <a href={arb.location}>{arb.Filename}</a>
+                                                    </li>
+                                                ))}
+                                                </ul>
                                             </li>
                                             <li>
-                                                <a href="/mtech_reg_file.pdf">M.Tech</a>
+                                                <a>M.Tech</a>
+                                               
                                             </li>
                                         </ul>
                                     </li>
                                     <li className="drop-down">
                                         <a href="/#">Syllabus</a>
                                         <ul>
-                                            <li>
-                                                <a href="/btech_syllabus.pdf">B.Tech</a>
+                                            <li className="drop-down">
+                                                <a>B.Tech</a>
+                                                <ul>
+                                                {Academic_regulations_btech.map((arb)=>(
+                                                    <li>
+                                                        <a href={arb.location}>{arb.Filename}</a>
+                                                    </li>
+                                                ))}
+                                                </ul>
                                             </li>
                                             <li>
-                                                <a href="/mtech_syllabus.pdf">M.Tech</a>
+                                                <a>M.Tech</a>
                                             </li>
                                         </ul>
                                     </li>
