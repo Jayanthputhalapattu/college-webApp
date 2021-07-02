@@ -58,7 +58,7 @@ function App() {
             <Route path="/nss_ncc" component={NCC_NSS}/>
             <Route path="/contact" component ={Contact}/>
             {/* <Route path="/webteam" component={WebTeam} /> */}
-            <Route path="/" component ={Principals}/>
+            <Route path="/principals" component ={Principals}/>
             <Route path="*" component={NotFound} />
             
             </Switch>

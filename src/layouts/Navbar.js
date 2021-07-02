@@ -77,6 +77,7 @@ const Navba = () => {
                                                     <li><a href="/academics/B.Tech.(CBCS) Regulations, 2018(R-2018).pdf">B.Tech.(CBCS) Regulations, 2018(R-2018)</a></li>
                                                     <li ><a href="/academics/Modifications of BTech Regulations on Open Electives.pdf">Modifications of BTech Regulations on Open Electives</a></li>
                                                      <li><a href="/academics/B.Tech Regulations ,2020(R-20).pdf">B.Tech Regulations ,2020(R-20)</a></li>
+                                                     <li><a href="/academics/regulations/SVUCE_Regulations_2010.pdf">SVUCE Regulations 2010</a></li>
                                                 </ul>
                                                 
                                             </li>
