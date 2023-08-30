@@ -57,26 +57,27 @@ export const EceFaculty = [
         "Details" :"/EceFiles/TSR Brief_CV edited_25-01-2017.pdf"
     },
     {
-        "designation" : "Associate Professor",
+        "designation" : "Professor",
         "Name" :"Dr. S. Swarnalatha",
         "Phone":"(+91)-9490981637",
         "Email" :"swarnasvu09@gmail.com",
         "Details" :"/EceFiles/ECE_Smt_SSwarnalatha.pdf"
     },
     {
-        "designation" : "Assistant Professor",
-        "Name" :"Dr. D. Gowri Shankar Reddy",
-        "Phone":"(+91)-8686677877",
-        "Email" :"gowri.durgam@gmail.com",
-        "Details" :"/EceFiles/ECE_Sri_GowriShankarReddy.pdf"
-    },
-    {
-        "designation" : "Assistant Professor",
+        "designation" : "Professor",
         "Name" :"	Dr. I. Kullayamma",
         "Phone":"(+91)-9440488810",
         "Email" :"ikusuma96@gmail.com",
         "Details" :"/EceFiles/ECE_Smt_IKullayamma.pdf"
     },
+    {
+        "designation" : "Associate Professor",
+        "Name" :"Dr. D. Gowri Shankar Reddy",
+        "Phone":"(+91)-8686677877",
+        "Email" :"gowri.durgam@gmail.com",
+        "Details" :"/EceFiles/ECE_Sri_GowriShankarReddy.pdf"
+    },
+    
 
 ]
 
