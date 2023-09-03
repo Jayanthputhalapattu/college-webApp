@@ -41,5 +41,47 @@ export const cseFaculty =[
     "Phone":"(+91)-9441005225",
     "Email" :"svuvivek@gmail.com",
     "Details" :"NA"  
-}
+},
+{
+    "designation": "Academic Consultant",  
+    "Name": "Dr. SURESH KUMAR REDDY KAMBAM",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "T. HEMALATHA",
+    "Phone": "(+91)-",
+    "Email": "", 
+    "Details": "NA"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "K VENKATA CHALAPATHI",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "J. SRIKANTH REDDY",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA" 
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "D. KALPANA CHOWDARY",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "P. HIMACHANDANA",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  }
 ]

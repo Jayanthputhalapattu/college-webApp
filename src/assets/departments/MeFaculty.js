@@ -57,6 +57,76 @@ export const MeFaculty = [
         "Email" :"allampati_sr@rediffmail.com",
         "Details" :"/MecFiles/MECH_ASR.pdf"
     },
+    {
+        "designation": "Academic Consultant",
+        "Name": "Dr. N. BALA SUBRAMANYAM",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",  
+        "Name": "MADUPURI REDDEIAH",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "KARANAM PAVAN KUMAR",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "SIBBALA VANI",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "KONDETI VIJAYALAKSHMI",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "P. GOPI",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "B. RAGHAVENDRA PRASAD NAYAK",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "A V N S KIRAN",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "D. JYOSTHNA",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "T. EBESU",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      }
     
     
 ]

@@ -6,13 +6,7 @@ export const EeeFaculty = [
         "Email" :"	mdreddy999@rediffmail.com",
         "Details" :"/EeeFiles/EEE_Prof_MDamodaraReddy.pdf"
     },
-    {
-        "designation" : "Professor",
-        "Name" :"Prof. G.V. Marutheswar",
-        "Phone":"(+91)-9290728020",
-        "Email" :"	marutheswargv@rediff.com",
-        "Details" :"/EeeFiles/EEE_Prof_GVMarutheswar.pdf"
-    },
+    
     {
         "designation" : "Professor",
         "Name" :"Prof. A. Lakshmi Devi",
@@ -49,4 +43,60 @@ export const EeeFaculty = [
         "Email" :"	chandu.jinka@gmail.com",
         "Details" :"/EeeFiles/DrJNC.pdf"
     },
+    {
+        "designation": "Academic Consultant",
+        "Name": "P. DINAKARA PRASAD REDDY",
+        "Phone": "(+91)-",
+        "Email": "", 
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "CHELLA HARI PRASAD",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "ANNAM SREENIVASULU",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "M. VIJAYAKUMAR NAIK",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "RAM PRASAD KANNEMADUGU",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "RAJA SEKHAR REDDY BAYYAPUREDDY",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "CHAITHANYA AYYA",
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      },
+      {
+        "designation": "Academic Consultant",
+        "Name": "GAYATHRI PEDDA", 
+        "Phone": "(+91)-",
+        "Email": "",
+        "Details": "NA"
+      }
 ]

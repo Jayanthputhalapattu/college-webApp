@@ -7,7 +7,8 @@ const Ece = () => {
         <Container>
             <Row>
                 <Col>
-                    <h1 class="section-title">Electronis and Communication Enggineering</h1>
+                    <h1 class="section-title">Electronics and Communication Engineering</h1>
+                    <h2>Mission</h2>
                     <p>
                         The discipline of Electronics and Communication Engineering was started under
                         Department of Electrical and Electronics Engineering in 1971. After a long
@@ -16,6 +17,9 @@ const Ece = () => {
                         Communications Engineering in September, 2011.
 
                     </p>
+                    <h2>
+                        Vision
+                    </h2>
                     <p>
                         At present the department of ECE is offering a B.Tech(ECE) programme with an
                         intake of 60 , M.Tech (Communication Systems) with an intake of 24 and M.Tech

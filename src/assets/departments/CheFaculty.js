@@ -14,5 +14,19 @@ export const CheFaculty = [
         "Email" :"Bsarathbau75@gmail.com",
         "Details" :"NA"
     },
+    {
+    "designation": "Academic Consultant",
+    "Name": "Dr. HYMAVATHI DARLA",
+    "Phone": "(+91)-", 
+    "Email": "",
+    "Details": "NA"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "B. MANJULA",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  }
     
 ]

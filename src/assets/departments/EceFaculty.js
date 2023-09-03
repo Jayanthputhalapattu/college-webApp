@@ -77,6 +77,56 @@ export const EceFaculty = [
         "Email" :"gowri.durgam@gmail.com",
         "Details" :"/EceFiles/ECE_Sri_GowriShankarReddy.pdf"
     },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"I. Prathibha",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"SUBRAMANYAM KUNDILI",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"SHAIK JAMEER",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"CHIRANJEEVI ALTHI",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"ANUMOLU LASMIKA",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"G. SHIRISHA",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"MACHIREDDY CHANDANA PRIYA",
+        "Phone":"(+91)-",
+        "Email" :"",
+        "Details" :"NA"
+    },
+    
     
 
 ]

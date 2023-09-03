@@ -95,15 +95,30 @@ const Navba = () => {
                                             <li className="drop-down">
                                                 <a>B.Tech</a>
                                                 <ul>
+                                                <li className="drop-down">
+                                                    <a href="/#"> R-16 </a>
+                                                </li>
+                                                <li className="drop-down">
+                                                    <a > R-18 </a>
+                                                    <ul>
                                                 {Syllabus_btech.map((arb)=>(
                                                     <li>
                                                         <a href={arb.location}>{arb.Filename}</a>
                                                     </li>
                                                 ))}
                                                 </ul>
+
+                                                </li>
+                                                <li className="drop-down">
+                                                    <a href="/#"> R-20 </a>
+                                                </li>
+                                                </ul>
+
+                                                
                                             </li>
                                             <li className="drop-down">
                                                 <a>M.Tech</a>
+                                                <li className="drop-down"></li>
                                                 <ul>
                                                  {Syllabus_mtech.map((arb)=>(
                                                     <li>

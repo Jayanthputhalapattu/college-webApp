@@ -98,6 +98,20 @@ export const CivFaculty = [
         "Email" :"	srinimasa@gmail.com",
         "Details" :"/CivFiles/CIV_Sri_BMadhusudhanaReddy.pdf"
     },
+    {
+    "designation": "Academic Consultant",
+    "Name": "GORANTLA SHANMUKHA SRINIVAS",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  },
+  {  
+    "designation": "Academic Consultant",
+    "Name": "MADDURI RUBEN PRADEEP",
+    "Phone": "(+91)-",
+    "Email": "",
+    "Details": "NA"
+  }
     
    
 
