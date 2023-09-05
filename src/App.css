@@ -8,6 +8,7 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 body {
     font-family: "Poppins", sans-serif;
     color: #4d4643;
@@ -2186,3 +2187,56 @@ body {
     text-decoration: none;
   }
   
+
+#text {
+  font-size: 200px;
+  font-family: 'Rubik Iso', sans-serif; 
+  font-weight: bold;
+  color: rgb(0, 94, 255);
+  align-content: center;
+  text-align: center; 
+  animation: stamp 2s infinite;
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.4));
+}
+
+@keyframes stamp {
+  0%, 20% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  
+  40% {
+    transform: translateY(-20px) scale(0.8);
+    opacity: 0.8;
+  }
+  
+  60% {
+    transform: translateY(-10px) scale(1.2);
+    opacity: 0.4; 
+  }
+  
+  80% {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+  }
+}
+
+#loader {
+  height: 5px;
+  width: 0%;
+  background-color: #007bff;
+  
+  position: relative;
+  overflow: hidden;
+  
+  animation: expand 2s ease-out;
+}
+
+@keyframes expand {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}

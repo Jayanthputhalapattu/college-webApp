@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import React, { useState, useEffect } from 'react';
 import {BrowserRouter as Router, Route,Switch} from "react-router-dom";
 import Navba from './layouts/Navbar';
 import firebase from "firebase/app"
@@ -29,42 +30,65 @@ import Contact from './Components/NavbarElements/Contact';
 import Principals from "./Components/NavbarElements/About/Principal"
 // import WebTeam from './Components/Credits/WebTeam';
 import NotFound from './layouts/NotFound';
+// App.js
+
+import Preloader from './Preloader/preloader'
+
+
 
 firebase.initializeApp(firebaseConfig)
+
+
 function App() {
 
+    const [loaded, setLoaded] = useState(false);
+  
+    useEffect(() => {
+      // Simulate loading time
+      setTimeout(() => {
+        setLoaded(true);
+      }, 2000); 
+    }, []);
+  
     return (
+      <>
         <Router>
-            <Navba/> 
+          <Navba />
+  
+          {!loaded ? (
+            <Preloader />
+          ) : (
             <Switch>
-            <Route exact path="/" component={MainHomePage}/>
-
-            <Route path="/CSE" component={Cse}/>
-            <Route path="/ECE" component={Ece}/>
-            <Route path="/ChE" component={Che}/>
-            <Route path="/CE" component={CE}/>
-            <Route path="/ME" component={Me}/>
-            <Route path="/EEE" component={EEE}/>
-            <Route path="/newsportal" component={NEWS}/>
-            <Route path="/login" component={Login}/>
-            <Route path="/TQ" component ={Teqip}/>
-            <Route path="/teqip" component={Teqip} />
-            <Route path="/placements" component={Placements}/>
-            <Route path="/courses_offered" component={CoursesOffered}/>
-            <Route path="/hostels" component={MensHostel}/>
-            <Route path="/library" component={Library}/>
-            <Route path="/healthcenter" component={Healthcentre}/>
-            <Route path="/alumni" component={Alumni}/>
-            <Route path="/nss_ncc" component={NCC_NSS}/>
-            <Route path="/contact" component ={Contact}/>
-            {/* <Route path="/webteam" component={WebTeam} /> */}
-            <Route path="/principals" component ={Principals}/>
-            <Route path="*" component={NotFound} />
-            
+              <Route exact path="/" component={MainHomePage}/>
+              <Route path="/CSE" component={Cse}/>
+              <Route path="/ECE" component={Ece}/>
+              <Route path="/ChE" component={Che}/>
+              <Route path="/CE" component={CE}/>
+              <Route path="/ME" component={Me}/>
+              <Route path="/EEE" component={EEE}/>
+              <Route path="/newsportal" component={NEWS}/>
+              <Route path="/login" component={Login}/>
+              <Route path="/TQ" component ={Teqip}/>
+              <Route path="/teqip" component={Teqip} />
+              <Route path="/placements" component={Placements}/>
+              <Route path="/courses_offered" component={CoursesOffered}/>
+              <Route path="/hostels" component={MensHostel}/>
+              <Route path="/library" component={Library}/>
+              <Route path="/healthcenter" component={Healthcentre}/>
+              <Route path="/alumni" component={Alumni}/>
+              <Route path="/nss_ncc" component={NCC_NSS}/>
+              <Route path="/contact" component ={Contact}/>
+              <Route path="/principals" component ={Principals}/>
+              // etc...
+              <Route path="*" component={NotFound} />
             </Switch>
-            <Footer/> 
+          )}
+          
+          <Footer />
         </Router>
-    )
-}
+      </>
+    );
+  }
+  
 
 export default App;
