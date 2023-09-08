@@ -1,25 +1,13 @@
 export const CivFaculty = [
+    
     {
         "designation" : "Professor",
-        "Name" :"Prof. P. Mallikarjuna",
-        "Phone":"(+91)-9441886294",
-        "Email" :"mallikarjuna_perugu@yahoo.co.in",
-        "Details" :"/CivFiles/CIV_Prof_PMallikarjuna.pdf"
-    },
-    {
-        "designation" : "Professor",
-        "Name" :"Prof. G.N. Pradeep Kumar",
+        "Name" :"Prof. G.N. Pradeep Kumar (Retired on 30-06-2023)",
         "Phone":"(+91)-9963069986",
         "Email" :"	saignp@gmail.com",
         "Details" :"/CivFiles/CIV_Prof_GNPradeepKumar.pdf"
     },
-    {
-        "designation" : "Professor",
-        "Name" :"Prof. K. Nagendra Prasad",
-        "Phone":"(+91)-7842787771",
-        "Email" :"kotanp_svu@yahoo.com",
-        "Details" :"/CivFiles/CIV_Prof_KNagendraPrasad copy.pdf"
-    },
+    
     {
         "designation" : "Professor",
         "Name" :"Prof. I.V. Ramana Reddy",
@@ -101,15 +89,15 @@ export const CivFaculty = [
     {
     "designation": "Academic Consultant",
     "Name": "GORANTLA SHANMUKHA SRINIVAS",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Phone": "(+91)-9912577677",
+    "Email": "gssmtech@gmail.com",
     "Details": "NA"
   },
   {  
     "designation": "Academic Consultant",
     "Name": "MADDURI RUBEN PRADEEP",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Phone": "(+91)-7893430354",
+    "Email": "NA",
     "Details": "NA"
   }
     

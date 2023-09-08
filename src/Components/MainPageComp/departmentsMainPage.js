@@ -7,7 +7,7 @@ const DepartmentsMainPage = ()=>{
           <h2><strong>Departments</strong></h2>
         </div>
 
-        <div className="row">
+        <div className="row justify-content-center">
           <div className="col-lg-4 col-md-6">
             <div className="icon-box" data-aos="fade-up">
               <div className="icon"><i class="icofont-test-tube-alt"></i></div>
@@ -48,6 +48,13 @@ const DepartmentsMainPage = ()=>{
             <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
               <div className="icon"><i class="icofont-auto-mobile"></i></div>
               <h4 className="title"><a href="ME">Mechanical Engineering</a></h4>
+              <p className="description"></p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 ">
+            <div className="icon-box" data-aos="fade-up" data-aos-delay="400">
+              <div className="icon"><i class="icofont-light-bulb"></i></div>
+              <h4 className="title"><a href="ME">Sciences And Humanity</a></h4>
               <p className="description"></p>
             </div>
           </div>

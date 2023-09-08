@@ -7,6 +7,23 @@ const Cse = () => {
             <Row>
                 <Col>
                     <h1 class="section-title">Computer Science and Engineering</h1>
+
+                    <h3 style={{textAlign:"center"}}>
+      <a style={{}}href="https://svuniversity.edu.in/departments_engg/computer-science-and-engineering">
+        SV University Website Link
+      </a>
+                   </h3>
+                   <div className="card">
+      <img 
+        src="https://svuniversity.edu.in/storage/2022/11/photo-2-1024x596.jpg" 
+        className="card-img-top" 
+        alt="Electrical and Electronics Engineering"/>
+        <br/>
+        <a href="https://svuniversity.edu.in/storage/2023/02/CSE.pdf">
+        <b>Download Department brochure </b>
+        </a> 
+    </div>
+
                     <p>
                         The Department of Computer Science and Engineering was established in 1986
                         offering B.Tech Program with initial intake of 20. Now the BTech (CSE) intake is
@@ -39,7 +56,7 @@ const Cse = () => {
                         <tbody>
                             <tr>
                                 <th>HOD</th>
-                                <td>Prof. P Venkata Subba Reddy</td>
+                                <td>Prof. M. Humera Khanam</td>
                             </tr>
                             <tr>
                                 <th>Chairman BOS(PG)</th>

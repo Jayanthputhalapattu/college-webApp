@@ -17,6 +17,7 @@ import Che from './Components/Departments/Che';
 import CE from './Components/Departments/CE';
 import Me from './Components/Departments/Me';
 import EEE from './Components/Departments/EEE';
+import SC from './Components/Departments/SC';
 
 import Placements from './Components/NavbarElements/Placements';
 import Teqip from './Components/NavbarElements/TEQIP';
@@ -66,6 +67,7 @@ function App() {
               <Route path="/CE" component={CE}/>
               <Route path="/ME" component={Me}/>
               <Route path="/EEE" component={EEE}/>
+              <Route path="/SC" component={SC}/>
               <Route path="/newsportal" component={NEWS}/>
               <Route path="/login" component={Login}/>
               <Route path="/TQ" component ={Teqip}/>

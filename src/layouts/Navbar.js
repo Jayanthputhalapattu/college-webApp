@@ -1,7 +1,9 @@
 import React, {useEffect, useState} from "react";
 import {Button} from "reactstrap";
-import { Academic_regulations_btech } from "../assets/DBStatic/academics/academic_regulations";
-import { Syllabus_btech } from "../assets/DBStatic/academics/syllabus_btech";
+
+import { Syllabus_btech_18 } from "../assets/DBStatic/academics/syllabus_btech_18";
+import { Syllabus_btech_16 } from "../assets/DBStatic/academics/syllabus_btech_16";
+import { Syllabus_btech_20 } from "../assets/DBStatic/academics/syllabus_btech_20";
 import { Syllabus_mtech } from "../assets/DBStatic/academics/syllabus_mtech";
 const Navba = () => {
     const [isLoggedIn,
@@ -54,7 +56,8 @@ const Navba = () => {
                             <li className="drop-down">
                                 <a >About</a>
                                 <ul>
-                                   <li><a href="/principals">Principals</a></li>
+                                   <li><a href="/principals">About College</a></li>
+                                    <li><a href="/principals">Principals</a></li>
                                 </ul>
                             </li>
                             <li className="drop-down">
@@ -95,13 +98,10 @@ const Navba = () => {
                                             <li className="drop-down">
                                                 <a>B.Tech</a>
                                                 <ul>
-                                                <li className="drop-down">
-                                                    <a href="/#"> R-16 </a>
-                                                </li>
-                                                <li className="drop-down">
-                                                    <a > R-18 </a>
+                                                    <li className="drop-down">
+                                                    <a > R-16 </a>
                                                     <ul>
-                                                {Syllabus_btech.map((arb)=>(
+                                                {(Syllabus_btech_16).map((arb)=>(
                                                     <li>
                                                         <a href={arb.location}>{arb.Filename}</a>
                                                     </li>
@@ -109,13 +109,33 @@ const Navba = () => {
                                                 </ul>
 
                                                 </li>
-                                                <li className="drop-down">
-                                                    <a href="/#"> R-20 </a>
+                                                  <li className="drop-down">
+                                                    <a > R-18 </a>
+                                                    <ul>
+                                                {(Syllabus_btech_18).map((arb)=>(
+                                                    <li>
+                                                        <a href={arb.location}>{arb.Filename}</a>
+                                                    </li>
+                                                ))}
+                                                </ul>
+
                                                 </li>
+                                            <li className="drop-down">
+                                                    <a > R-20 </a>
+                                                    <ul>
+                                                {(Syllabus_btech_20).map((arb)=>(
+                                                    <li>
+                                                        <a href={arb.location}>{arb.Filename}</a>
+                                                    </li>
+                                                ))}
+                                                </ul>
+
+                                                </li> 
                                                 </ul>
 
                                                 
                                             </li>
+
                                             <li className="drop-down">
                                                 <a>M.Tech</a>
                                                 <li className="drop-down"></li>
@@ -165,6 +185,9 @@ const Navba = () => {
                                     </li>
                                     <li>
                                         <a href="/CSE">Computer Science & Engineering</a>
+                                    </li>
+                                    <li>
+                                        <a href="/SC">Sciences and Humanities</a>
                                     </li>
                                 </ul>
                             </li>

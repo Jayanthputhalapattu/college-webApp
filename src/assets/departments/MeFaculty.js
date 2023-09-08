@@ -22,7 +22,7 @@ export const MeFaculty = [
     },
     {
         "designation" : "Associate Professor",
-        "Name" :"Dr. K. Rajesh Babu",
+        "Name" :"Sri. K. Rajesh Babu",
         "Phone":"(+91)-877-2246602",
         "Email" :"kadirikotar2000@yahoo.com",
         "Details" :"/MecFiles/MEC_Dr_KRajeshBabu.pdf"
@@ -46,7 +46,7 @@ export const MeFaculty = [
         "designation" : "Assistant Professor",
         "Name" :"Ms. K. Aruna",
         "Phone":"(+91)-9000109058",
-        "Email" :"",
+        "Email" :"aruna_svu@gmail.com",
         "Details" :"/MecFiles/MEC_Ms_KAruna.pdf"
     },
     

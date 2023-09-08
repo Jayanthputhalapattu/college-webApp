@@ -1,4 +1,4 @@
-export const Syllabus_btech= [
+export const Syllabus_btech_18 = [
     {
         "BRANCH" : "CHEMICAL ENGINEERING",
         "Filename": "CHE R18 SYLLABUS",

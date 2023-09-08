@@ -3,10 +3,27 @@ import {MeFaculty} from "../../assets/departments/MeFaculty"
 
 const Me = () => {
     return (
-        <Container>
+        <Container className="green">
             <Row>
                 <Col>
                     <h1 class="section-title">Mechanical Engineering</h1>
+                    
+                    <h3 style={{textAlign:"center"}}>
+      <a href="https://svuniversity.edu.in/departments_engg/mechanical-engineering
+">
+        SV University Website Link
+      </a>
+    </h3>
+    <div className="card">
+      <img 
+        src="https://svuniversity.edu.in/storage/2021/12/SVU-College-of-Engineering-Workshop-1024x293.jpg" 
+        className="card-img-top" 
+        alt="..."/>
+        <br/>
+        <a href="https://svuniversity.edu.in/storage/2023/02/Mechanical.pdf">
+        <b>Download Department brochure </b>
+        </a> 
+    </div>
                     <p>
                         The Department has 10 faculty members, 240 UG students, 36 PG students and 43
                         supporting technical staff. The Department offers academic programmes leading to
@@ -49,15 +66,15 @@ const Me = () => {
                             <tbody>
                                 <tr>
                                     <th>HOD</th>
-                                    <td>Dr. P. Venkataramaiah</td>
+                                    <td>Dr. V. Diwakar Reddy</td>
                                 </tr>
                                 <tr>
                                     <th>Chairman BOS(PG)</th>
-                                    <td></td>
+                                    <td>Dr. P. Venkataramaiah</td>
                                 </tr>
                                 <tr>
                                     <th>Chairman BOS(UG)</th>
-                                    <td>Dr. V. Diwakar Reddy</td>
+                                    <td>Sri K. Rajesh Babu</td>
                                 </tr>
                             </tbody>
                         </Table>
@@ -101,4 +118,4 @@ const Me = () => {
         </Container>
     )
 }
-export default Me
+export default Me;

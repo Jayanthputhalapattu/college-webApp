@@ -80,50 +80,50 @@ export const EceFaculty = [
     {
         "designation" : "Academic Consultant",
         "Name" :"I. Prathibha",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-9390639601",
+        "Email" :"ilaprathibha@gmail.com",
         "Details" :"NA"
     },
     {
         "designation" : "Academic Consultant",
         "Name" :"SUBRAMANYAM KUNDILI",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-9440935243",
+        "Email" :"subramanyam.kundili@gmail.com",
         "Details" :"NA"
     },
     {
         "designation" : "Academic Consultant",
         "Name" :"SHAIK JAMEER",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-9494698902",
+        "Email" :"roshanjameer87@gmail.com",
         "Details" :"NA"
     },
     {
         "designation" : "Academic Consultant",
         "Name" :"CHIRANJEEVI ALTHI",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-9885528825",
+        "Email" :"purnimaalthi@gmail.com",
         "Details" :"NA"
     },
     {
         "designation" : "Academic Consultant",
         "Name" :"ANUMOLU LASMIKA",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-9542781318",
+        "Email" :"anumolu.Lasmika@gmailcom",
         "Details" :"NA"
     },
     {
         "designation" : "Academic Consultant",
         "Name" :"G. SHIRISHA",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-8297153484",
+        "Email" :"sirishaece73@gmail.com",
         "Details" :"NA"
     },
     {
         "designation" : "Academic Consultant",
         "Name" :"MACHIREDDY CHANDANA PRIYA",
-        "Phone":"(+91)-",
-        "Email" :"",
+        "Phone":"(+91)-8374119020",
+        "Email" :"chandana.priya52@gmail.com",
         "Details" :"NA"
     },
     

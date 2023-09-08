@@ -1,9 +1,5 @@
 import {Container, Table, Row, Col} from "reactstrap"
- const h1Style = {
-    
-    textAlign: 'center',
-  };
-  
+
 
 const about = () => {
     return (
@@ -15,8 +11,10 @@ const about = () => {
         SV University Website Link
       </a>
     </h1>
-<p>
-       Pandit Jawharlal Nehru, the first Prime Minister of India. Laid the foundation stone for the S.V. University College of Engineering on 13th October 1959. During the past 61 years, it has become a premier technological institution in India due to the untiring efforts of the faculty and students.
+
+    
+          <P>
+              Pandit Jawharlal Nehru, the first Prime Minister of India. Laid the foundation stone for the S.V. University College of Engineering on 13th October 1959. During the past 61 years, it has become a premier technological institution in India due to the untiring efforts of the faculty and students.
 
 At the inception, the College offered three conventional disciplines of Civil, Electrical and Mechanical Engineering, leading to the Degree of Bachelor of Engineering. Subsequently new courses were introduced both at undergraduate and post-graduate levels, in tune with the changing needs and scenario in the field of technical education. At present, the College is offering 4- year B.Tech programmes in Chemical, Civil, Electrical and Electronics, Electronics and Communication, Mechanical and Computer Science & Engineering. B.Tech programs in Civil, Electrical and Electronics, Electronics and Communications, Mechanical and Computer Science & Engineering have been accredited for the period 2019-2021by NBA. In addition to B.Tech, M.Tech and Ph.D courses are offered in all these branches. Some of the M.Tech programs are also accredited by NBA.
 
@@ -36,11 +34,7 @@ To be recognized as a premier institution offering Engineering Education program
 To carry out research in Engineering and Technology relevant to all segments of society.
 To assume leadership in sustainable technological growth of the Indian society.
 To be a natural destination for excellence and diversity in thought and practice.
-</p>
-    
-          
-           
-          
+          </P>
         </Container>
     )
 }

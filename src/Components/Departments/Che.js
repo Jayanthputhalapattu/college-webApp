@@ -7,6 +7,23 @@ const Che=()=>{
             <Row>
                 <Col>
                 <h1 className="section-title">Chemical Enggineering</h1>
+
+                <h3 style={{textAlign:"center"}}>
+      <a href="https://svuniversity.edu.in/departments_engg/chemical-engineering">
+        SV University Website Link
+      </a>
+    </h3>
+    <div className="card">
+      <img 
+        src="https://svuniversity.edu.in/storage/2022/03/Chemistry-Dept-1024x768.jpg" 
+        className="card-img-top" 
+        alt="Electrical and Electronics Engineering"/>
+        <br/>
+        <a href="https://svuniversity.edu.in/storage/2023/02/Chemical-Engineering.pdf">
+        <b>Download Department brochure </b>
+        </a> 
+    </div>
+
                 <p>
                     To be a world class department of chemical engineering in effective teaching and knowledge creation which is seamlessly integrated with bordering sciences and committed to ignite and propel young minds with passion for originality, innovation and excellence.
     
@@ -24,7 +41,7 @@ const Che=()=>{
     <tbody>
         <tr>
         <th>HOD</th>
-        <td>Dr. B. Sarath Babu</td>
+        <td>Dr. P. Akhila Swathantra</td>
     </tr>
     <tr>
         <th>Chairman BOS(PG)</th>

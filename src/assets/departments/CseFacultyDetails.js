@@ -1,15 +1,9 @@
 //eslint-disable-next-line
 export const cseFaculty =[
-    {
-    "designation" : "Professor",
-    "Name" :"Dr. K.V. Madhu Murthy",
-    "Phone":"(+91)-9490507218, (+91)-877-2249191",
-    "Email" :"kvmmurthy@svuce.org",
-    "Details" :"NA"
-},
+    
 {
     "designation" : "Professor",
-    "Name" :"Dr. P. Venkata Subba Reddy",
+    "Name" :"Dr. P. Venkata Subba Reddy (Retired on 30-06-2023)",
     "Phone":"(+91)-9849308146, (+91)-877-3204213",
     "Email" :"vsrpoli@hotmail.com",
     "Details" :"/cseFiles/Dr.P.Venkata_Subba_Reddy.pdf"
@@ -45,43 +39,44 @@ export const cseFaculty =[
 {
     "designation": "Academic Consultant",  
     "Name": "Dr. SURESH KUMAR REDDY KAMBAM",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Phone": "(+91)-9701207488",
+    "Email": "sureshreddysvu@gmail.com",
     "Details": "NA"
   },
   {
     "designation": "Academic Consultant",
     "Name": "T. HEMALATHA",
-    "Phone": "(+91)-",
-    "Email": "", 
+    "Phone": "(+91)-8978227231",
+    "Email": "thirupathuruhemalatha@gmail.com", 
     "Details": "NA"
   },
   {
     "designation": "Academic Consultant",
     "Name": "K VENKATA CHALAPATHI",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Phone": "(+91)-9652621516",
+    "Email": "venkata.chalapathi87@gmail.com",
     "Details": "NA"
   },
   {
     "designation": "Academic Consultant",
-    "Name": "J. SRIKANTH REDDY",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Name": "J. SREEKANTH REDDY",
+    "Phone": "(+91)-9949298398",
+    "Email": "jsreddy99492@gmail.com",
     "Details": "NA" 
   },
   {
     "designation": "Academic Consultant",
     "Name": "D. KALPANA CHOWDARY",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Phone": "(+91)-9618139191",
+    "Email": "dutulurukalapana@gmail.com",
     "Details": "NA"
   },
   {
     "designation": "Academic Consultant",
     "Name": "P. HIMACHANDANA",
-    "Phone": "(+91)-",
-    "Email": "",
+    "Phone": "(+91)-9642052535",
+    "Email": "hima8022@gmail.com",
     "Details": "NA"
-  }
+  },
+  
 ]

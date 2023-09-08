@@ -2240,3 +2240,20 @@ body {
     width: 100%;
   }
 }
+.card{
+  max-width: 40rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 22%;
+  
+}
+.card-img-top {
+  border-radius: 30px;
+}
+
+.courses{
+  max-width: 100rem;
+}
+.green h2{
+  color: #009345;
+}

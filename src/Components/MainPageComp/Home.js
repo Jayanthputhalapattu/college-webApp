@@ -82,7 +82,7 @@ The official Alumni Network of SVU College Of Engineering website is <a href="sv
 
         <div className="row">
           <div className="col-lg-9 text-center text-lg-left">
-            <h3>We are celebrating 60th year of  <span>Academic Excellence</span></h3>
+            <h3>64 years of <span>Academic Excellence</span></h3>
             <p> SVUCE, a constituent college of Sri Venkateswara University, Tirupati, was established in 1959 and started functioning from 10 August 1959.</p>
 
 {/* <p>The foundation stone for the college Main Building was laid on 13 October 1959 by Pandit Jawaharlal Nehru, the first Prime Minister of India. It was declared open on 21 November 1968 by Sri. K Brahmananda Reddy, the then Chief Minister of Andhra Pradesh.</p>

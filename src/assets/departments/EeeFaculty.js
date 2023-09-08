@@ -46,57 +46,57 @@ export const EeeFaculty = [
     {
         "designation": "Academic Consultant",
         "Name": "P. DINAKARA PRASAD REDDY",
-        "Phone": "(+91)-",
-        "Email": "", 
+        "Phone": "(+91)-9395112112",
+        "Email": "NA", 
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "CHELLA HARI PRASAD",
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-9849035467",
+        "Email": "hariprasadchallaa@gmail.com",
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "ANNAM SREENIVASULU",
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-8019393948",
+        "Email": "sreenivasulu136@gmail.com",
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "M. VIJAYAKUMAR NAIK",
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-7989725945",
+        "Email": "NA",
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "RAM PRASAD KANNEMADUGU",
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-9966876248",
+        "Email": "ramprasad2102@gmail.com",
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "RAJA SEKHAR REDDY BAYYAPUREDDY",
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-9966665151",
+        "Email": "rajabayyapureddy@gmail.com",
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "CHAITHANYA AYYA",
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-8374241571",
+        "Email": "NA",
         "Details": "NA"
       },
       {
         "designation": "Academic Consultant",
         "Name": "GAYATHRI PEDDA", 
-        "Phone": "(+91)-",
-        "Email": "",
+        "Phone": "(+91)-8686498757",
+        "Email": "NA",
         "Details": "NA"
-      }
+      },
 ]
