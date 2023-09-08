@@ -2254,6 +2254,9 @@ body {
 .courses{
   max-width: 100rem;
 }
-.green h2{
+.green h2 {
+  color: #009345;
+}
+.green h3{
   color: #009345;
 }

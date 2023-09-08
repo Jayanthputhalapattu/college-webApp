@@ -33,7 +33,7 @@ import Principals from "./Components/NavbarElements/About/Principal"
 import NotFound from './layouts/NotFound';
 // App.js
 
-import Preloader from './Preloader/preloader'
+
 
 
 
@@ -42,23 +42,14 @@ firebase.initializeApp(firebaseConfig)
 
 function App() {
 
-    const [loaded, setLoaded] = useState(false);
-  
-    useEffect(() => {
-      // Simulate loading time
-      setTimeout(() => {
-        setLoaded(true);
-      }, 2000); 
-    }, []);
+    
   
     return (
       <>
         <Router>
           <Navba />
   
-          {!loaded ? (
-            <Preloader />
-          ) : (
+          
             <Switch>
               <Route exact path="/" component={MainHomePage}/>
               <Route path="/CSE" component={Cse}/>
@@ -84,7 +75,7 @@ function App() {
               // etc...
               <Route path="*" component={NotFound} />
             </Switch>
-          )}
+         
           
           <Footer />
         </Router>

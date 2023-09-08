@@ -20,7 +20,7 @@ const EEE = () => {
     
     <div className="card">
       <img 
-        src="https://svuniversity.edu.in/storage/2022/11/photo-2-1024x596.jpg" 
+        src="https://i.imgur.com/UBn1zxJ.jpg" 
         className="card-img-top" 
         alt="Electrical and Electronics Engineering"/>
         <br/>
@@ -167,7 +167,7 @@ Power Electronic devices considering the environmental and societal needs.<br/>
                         </tr>
                         <tr>
                             <th>Chairman BOS(UG)</th>
-                            <td>Prof. M. Damodara Reddy</td>
+                            <td>Prof. A. Lakshmi Devi</td>
                         </tr>
                     </tbody>
                 </Table>

@@ -3,7 +3,7 @@ import {cseFaculty} from "../../assets/departments/CseFacultyDetails";
 
 const Cse = () => {
     return (
-        <Container>
+        <Container className="green">
             <Row>
                 <Col>
                     <h1 class="section-title">Computer Science and Engineering</h1>
@@ -23,19 +23,30 @@ const Cse = () => {
         <b>Download Department brochure </b>
         </a> 
     </div>
+    <h3 style={{color:'Green'}}>
+                      About C.S.E Department
+                  </h3>
+                  <p>
+                    The Department of Computer Science and Engineering (CSE) was started in the year 1986-87. This department has been offering undergraduate course in the Computer Science and Engineering and Post Graduate Course in Computer Science and Engineering (CSE) started in year 2005 respectively. Several research scholars are pursuing Ph.D. Programs in the areas viz. Machine Learning, Deep Learning, Big Data, Distributed Computing, Cloud Computing, Computer Networks, Natural Language Processing, Speech Processing, Software Architecture and Software Testing.
+                  </p>
+                  <h3>
+                    Vision
+                  </h3>
+                  <p>
+                    To be one of the premier departments for achieving excellence in teaching and research with social responsibility and for producing innovative technical graduates in Computer Science and Engineering.
+                  </p>
+                  <h3>
+                    Mission
+                  </h3>
+                  <p>
+                    • To impart Computer Science and Engineering education by utilizing state of the art computing facilities.<br/>
+• To infuse scholarly inquisitiveness, professional behavior and ethical values among students and research scholars, thereby making an imprint in the technological, economic and social development of the nation.<br/>
+• To impart high quality professional training of international standards to meet the current and future demands of the industry and academia.<br/>
+• To develop adequate e-infrastructure, environment and culture for the state-of-the-art research work in Computer Science and Engineering.<br/>
+                  </p>
 
-                    <p>
-                        The Department of Computer Science and Engineering was established in 1986
-                        offering B.Tech Program with initial intake of 20. Now the BTech (CSE) intake is
-                        increased to 40. The post graduate program i.e. MTech (CSE) was started in the
-                        year 2005 with initial intake of 18 and now it is increased to 25. The MTech
-                        students, qualified in GATE receive Rs 8000 fellowship per month from AICTE. The
-                        PhD admissions in CSE started in the year 2002 and there are nearly 34 scholars
-                        are working for their doctoral degree. The thrust areas of research of the
-                        department are Natural Language Processing, Distributed Systems, Grid Computing,
-                        Artificial Intelligence, Software Architecture, Data Mining, Wireless Networks
-                        and Speech Processing.
-                    </p>
+
+
 
                 </Col>
             </Row>

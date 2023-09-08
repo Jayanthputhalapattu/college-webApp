@@ -39,31 +39,11 @@ Promoting in depth research and create centre of excellence in thrust areas.<br/
 </p>
 
 <h2>Programme Educational Objectives (PEOs)</h2>
-{/* <p>
-    ECE graduates will<br/>
-PEO1-have adequate analytical capabilities and practical knowledge to attend to the current challenging tasks and to absorb futuristic trends.<br/>
-PEO2-have adequate analytical capabilities and practical knowledge to attend to the current challenging tasks and to absorb futuristic trends.<br/>
-PEO3-able to abreast with the latest hardware and software design techniques and cutting-edge technologies.<br/>
-PEO4-able to enhance the knowledge and skills continually throughout their career and to make them capable to adapt in diverse environments.<br/>
-PEO5-imbibe leadership qualities among the students to take up challenging roles in their career by ensuring professional ethics with high sense of social responsibility.<br/>
-</p> */}
+
 <p> ECE graduates will<br/> <b>PEO1</b>-have adequate analytical capabilities and practical knowledge to attend to the current challenging tasks and to absorb futuristic trends.<br/> <b>PEO2</b>-have adequate analytical capabilities and practical knowledge to attend to the current challenging tasks and to absorb futuristic trends.<br/> <b>PEO3</b>-able to abreast with the latest hardware and software design techniques and cutting-edge technologies.<br/> <b>PEO4</b>-able to enhance the knowledge and skills continually throughout their career and to make them capable to adapt in diverse environments.<br/> <b>PEO5</b>-imbibe leadership qualities among the students to take up challenging roles in their career by ensuring professional ethics with high sense of social responsibility.<br/> </p>
 
 <h2>Programme Outcomes (POs)</h2>
-{/* <p>
-    PO1- Engineering knowledge: Apply the knowledge of mathematics, science, engineering fundamentals, and an engineering specialization to the solution of complex engineering problems related to Electronics & Communication and Engineering.<br/>
-PO2- Problem analysis: Identify, formulate, review research literature, and analyze complex engineering problems related to Electronics & Communication Engineering and reaching substantiated conclusions using first principles of mathematics, natural sciences, and engineering sciences.<br/>
-PO3- Design/development of solutions: Design solutions for complex engineering problems related to Electronics & Communication Engineering and design system components or processes that meet the specified needs with appropriate consideration for the public health and safety, and the cultural, societal, and environmental considerations.<br/>
-PO4- Conduct investigations of complex problems: Use research-based knowledge and research methods including design of experiments, analysis and interpretation of data, and synthesis of the information to provide valid conclusions.<br/>
-PO5- Modern tool usage: Create, select, and apply appropriate techniques, resources, and modern engineering and IT tools including prediction and modelling to complex engineering activities with an understanding of the limitations.<br/>
-PO6- The engineer and society: Apply reasoning informed by the contextual knowledge to assess societal, health, safety, legal and cultural issues and the consequent responsibilities relevant to the Electronics & Communication Engineering professional engineering practice.<br/>
-PO7- Environment and sustainability: Understand the impact of the Electronics & Communication Engineering professional engineering solutions in societal and environmental contexts, and demonstrate the knowledge of, and need for sustainable development.<br/>
-PO8- Ethics: Apply ethical principles and commit to professional ethics and responsibilities and norms of the engineering practice.<br/>
-PO9- Individual and team work: Function effectively as an individual, and as a member or leader in diverse teams, and in multidisciplinary settings.<br/>
-PO10- Communication: Communicate effectively on complex engineering activities with the engineering community and with society at large, such as, being able to comprehend and write effective reports and design documentation, make effective presentations, and give and receive clear instructions.<br/>
-PO11- Project management and finance: Demonstrate knowledge and understanding of the engineering and management principles and apply these to manage projects and in multidisciplinary environments.<br/>
-PO12- Life-long learning: Recognize the need for, and have the preparation and ability to engage in independent and life-long learning in the broadest context of technological change.<br/>
-</p> */}
+
 Here is the code with only the PO numbers bolded:
 
 <p>
