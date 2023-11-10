@@ -4,6 +4,35 @@ const Healthcentre = () => {
     return (
         <Container>
             <Row>
+                                      <section id="hero">
+    <div id="heroCarousel" className="carousel slide carousel-fade" data-ride="carousel">
+
+      <div className="carousel-inner" role="listbox">
+
+      
+        <div className="carousel-item active" style={{backgroundImage: "url(https://i.imgur.com/Ak5FtaQ.jpg)"}}>
+        </div>
+        
+         <div className="carousel-item active" style={{backgroundImage: "url()"}}>
+        </div>
+
+       
+ </div>
+      <a className="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span className="carousel-control-prev-icon bx bx-left-arrow" aria-hidden="true"></span>
+        <span className="sr-only">Previous</span>
+      </a>
+
+      <a className="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span className="carousel-control-next-icon bx bx-right-arrow" aria-hidden="true"></span>
+        <span className="sr-only">Next</span>
+      </a>
+
+      <ol className="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+    
+  </section>
                 <Col>
                     <h3
                         style={{

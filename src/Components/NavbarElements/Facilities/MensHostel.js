@@ -39,6 +39,24 @@ const MensHostel = () => {
                     </div>
 
                 </Col>
+                                       <section id="hero">
+    <div id="heroCarousel" className="carousel slide carousel-fade" data-ride="carousel">
+
+      <div className="carousel-inner" role="listbox">
+
+      
+        <div className="carousel-item active" style={{backgroundImage: "url(https://i.imgur.com/gKuWg8y.jpg)"}}>
+        </div>
+
+        
+
+       
+ </div>
+     
+
+    </div>
+    
+  </section>
 
             </Row>
             <Row>
@@ -56,9 +74,12 @@ const MensHostel = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <th>Principal- Cum- Chief Warden</th>
+                                <th>Principal</th>
                                 <td>(+91)-877-2289341, (+91)-877-2289561(O)</td>
                             </tr>
+                                <th>Warden - Prof. M. Damodar Reddy</th>
+                                <td>(+91)-9885428847</td>
+                                <td>EMAIL : mdreddy999@rediffmail.com</td>
                             <tr>
                                 <th>Hostel Office</th>
                                 <td>

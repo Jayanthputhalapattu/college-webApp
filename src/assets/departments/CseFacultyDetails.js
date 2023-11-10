@@ -38,45 +38,45 @@ export const cseFaculty =[
 },
 {
     "designation": "Academic Consultant",  
-    "Name": "Dr. SURESH KUMAR REDDY KAMBAM",
+    "Name": "Dr. Suresh Kumar Reddy K",
     "Phone": "(+91)-9701207488",
     "Email": "sureshreddysvu@gmail.com",
-    "Details": "NA"
+    "Details": "/cseFiles/suresh.pdf"
   },
   {
     "designation": "Academic Consultant",
-    "Name": "T. HEMALATHA",
+    "Name": "T. Hemalatha",
     "Phone": "(+91)-8978227231",
     "Email": "thirupathuruhemalatha@gmail.com", 
-    "Details": "NA"
+    "Details": "/cseFiles/hemalatha.pdf"
   },
   {
     "designation": "Academic Consultant",
-    "Name": "K VENKATA CHALAPATHI",
+    "Name": "K Venkata Chalapathi",
     "Phone": "(+91)-9652621516",
     "Email": "venkata.chalapathi87@gmail.com",
-    "Details": "NA"
+    "Details": "/cseFiles/chalapathi.pdf"
   },
   {
     "designation": "Academic Consultant",
-    "Name": "J. SREEKANTH REDDY",
+    "Name": "J. Sreekanth Reddy",
     "Phone": "(+91)-9949298398",
     "Email": "jsreddy99492@gmail.com",
-    "Details": "NA" 
+    "Details": "/cseFiles/sreekanth.pdf" 
   },
   {
     "designation": "Academic Consultant",
-    "Name": "D. KALPANA CHOWDARY",
+    "Name": "D. Kalpana Chowdary",
     "Phone": "(+91)-9618139191",
     "Email": "dutulurukalapana@gmail.com",
-    "Details": "NA"
+    "Details": "/cseFiles/kalpana.pdf"
   },
   {
     "designation": "Academic Consultant",
-    "Name": "P. HIMACHANDANA",
+    "Name": "P. Himachandana",
     "Phone": "(+91)-9642052535",
     "Email": "hima8022@gmail.com",
-    "Details": "NA"
+    "Details": "/cseFiles/chandana.pdf"
   },
   
 ]

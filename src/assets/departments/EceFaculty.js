@@ -47,7 +47,7 @@ export const EceFaculty = [
         "Name" :"Prof. G. Umamaheswara Reddy",
         "Phone":"(+91)-9177039450",
         "Email" :"umaskit@gmail.com",
-        "Details" :"/EceFiles/ECE_UMR.pdf"
+        "Details" :"/EceFiles/my_cv (3)GUMR.pdf"
     },
     {
         "designation" : "Professor",
@@ -68,7 +68,7 @@ export const EceFaculty = [
         "Name" :"	Dr. I. Kullayamma",
         "Phone":"(+91)-9440488810",
         "Email" :"ikusuma96@gmail.com",
-        "Details" :"/EceFiles/ECE_Smt_IKullayamma.pdf"
+        "Details" :"/EceFiles/my_cv.pdf"
     },
     {
         "designation" : "Associate Professor",
@@ -82,49 +82,49 @@ export const EceFaculty = [
         "Name" :"I. Prathibha",
         "Phone":"(+91)-9390639601",
         "Email" :"ilaprathibha@gmail.com",
-        "Details" :"NA"
+        "Details" :"/EceFiles/prathiba.pdf"
     },
     {
         "designation" : "Academic Consultant",
-        "Name" :"SUBRAMANYAM KUNDILI",
+        "Name" :"Subramanyam Kundali",
         "Phone":"(+91)-9440935243",
         "Email" :"subramanyam.kundili@gmail.com",
-        "Details" :"NA"
+        "Details" :"/EceFiles/subbu.pdf"
     },
     {
         "designation" : "Academic Consultant",
-        "Name" :"SHAIK JAMEER",
+        "Name" :"Shaik Jameer",
         "Phone":"(+91)-9494698902",
         "Email" :"roshanjameer87@gmail.com",
-        "Details" :"NA"
+        "Details" :"/EceFiles/jameer.pdf"
     },
     {
         "designation" : "Academic Consultant",
-        "Name" :"CHIRANJEEVI ALTHI",
+        "Name" :"Chiranjeevi Althi",
         "Phone":"(+91)-9885528825",
         "Email" :"purnimaalthi@gmail.com",
-        "Details" :"NA"
+        "Details" :"/EceFiles/chiranjivi.pdf"
     },
     {
         "designation" : "Academic Consultant",
-        "Name" :"ANUMOLU LASMIKA",
+        "Name" :"Anumolu lasmika",
         "Phone":"(+91)-9542781318",
         "Email" :"anumolu.Lasmika@gmailcom",
-        "Details" :"NA"
+        "Details" :"/EceFiles/lasmika.pdf"
     },
     {
         "designation" : "Academic Consultant",
-        "Name" :"G. SHIRISHA",
+        "Name" :"G. Shirisha",
         "Phone":"(+91)-8297153484",
         "Email" :"sirishaece73@gmail.com",
-        "Details" :"NA"
+        "Details" :"/EceFiles/sirisha.pdf"
     },
     {
         "designation" : "Academic Consultant",
-        "Name" :"MACHIREDDY CHANDANA PRIYA",
+        "Name" :"Machireddy Chandana Priya",
         "Phone":"(+91)-8374119020",
         "Email" :"chandana.priya52@gmail.com",
-        "Details" :"NA"
+        "Details" :"/EceFiles/chandanapriya.pdf"
     },
     
     

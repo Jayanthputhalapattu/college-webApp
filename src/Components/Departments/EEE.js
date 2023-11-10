@@ -12,7 +12,7 @@ const EEE = () => {
     
     <h3 style={{textAlign:"center"}}>
       
-      <a href="https://svuniversity.edu.in/departments_engg/electrical-and-electronics-engineering">
+      <a style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/departments_engg/electrical-and-electronics-engineering">
         SV University Website Link
         </a> 
     
@@ -24,7 +24,7 @@ const EEE = () => {
         className="card-img-top" 
         alt="Electrical and Electronics Engineering"/>
         <br/>
-        <a href="https://svuniversity.edu.in/storage/2023/02/EEE.pdf">
+        <a style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/storage/2023/02/EEE.pdf">
         <b>Download Department brochure </b>
         </a> 
     </div>

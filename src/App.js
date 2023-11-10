@@ -27,8 +27,13 @@ import Library from './Components/NavbarElements/Facilities/Library';
 import Healthcentre from './Components/NavbarElements/Facilities/Health_center';
 import Alumni from './Components/NavbarElements/Facilities/Alumni';
 import NCC_NSS from './Components/NavbarElements/Facilities/NCC_NSS';
+import NSS from './Components/NavbarElements/Facilities/NSS';
 import Contact from './Components/NavbarElements/Contact';
-import Principals from "./Components/NavbarElements/About/Principal"
+import principal from './Components/NavbarElements/About/Principal'
+import about from './Components/NavbarElements/About/about';
+import viceprincipal from './Components/NavbarElements/About/viceprincipal';
+import timetables from './Components/NavbarElements/Academics/TimeTables';
+import calender from './Components/NavbarElements/Academics/Academic_calender';
 // import WebTeam from './Components/Credits/WebTeam';
 import NotFound from './layouts/NotFound';
 // App.js
@@ -65,13 +70,20 @@ function App() {
               <Route path="/teqip" component={Teqip} />
               <Route path="/placements" component={Placements}/>
               <Route path="/courses_offered" component={CoursesOffered}/>
+              <Route path="/calender" component={calender}/>
+              <Route path="/timetables" component={timetables}/>
               <Route path="/hostels" component={MensHostel}/>
               <Route path="/library" component={Library}/>
               <Route path="/healthcenter" component={Healthcentre}/>
               <Route path="/alumni" component={Alumni}/>
               <Route path="/nss_ncc" component={NCC_NSS}/>
+              <Route path="/nss" component={NSS}/>
               <Route path="/contact" component ={Contact}/>
-              <Route path="/principals" component ={Principals}/>
+              <Route path="/principal" component ={principal}/>
+              <Route path="/about" component ={about}/>
+              <Route path="/viceprincipal" component ={viceprincipal}/>
+
+
               // etc...
               <Route path="*" component={NotFound} />
             </Switch>

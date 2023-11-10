@@ -14,17 +14,17 @@ const Ece = () => {
 
 
 <h3 style={h1Style}>
-      <a href="https://svuniversity.edu.in/departments_engg/electronis-and-communication-enggineering">
+      <a style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/departments_engg/electronis-and-communication-enggineering">
         SV University Website Link
       </a>
     </h3>
     <div className="card">
       <img 
-        src="https://svuniversity.edu.in/storage/2021/12/ece-1024x487.png" 
+        src="https://i.imgur.com/HnLcsxo.jpg" 
         className="card-img-top" 
         alt="Electrical and Electronics Engineering"/>
         <br/>
-        <a href="https://svuniversity.edu.in/storage/2023/02/ECE.pdf">
+        <a style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/storage/2023/02/ECE.pdf">
         <b>Download Department brochure </b>
         </a> 
     </div>

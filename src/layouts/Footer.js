@@ -114,14 +114,13 @@ const Footer = () => {
                             style={{
                             color: "blue"
                         }}>JAYANTH PUTHALAPATTU,</a>
-                        <span>MERN STACK DEV</span>
+                        <span>FULL STACK DEV</span>
                         <br/>
                         <a
                             href="https://gracious-williams-9a607a.netlify.app/?#"
                             style={{
                             color: "blue"
                         }}>NSR JYOTHISH CHANDRA,</a>
-                        <span>FULL STACK DEV</span>
                         <span>MERN STACK DEV</span>
                         <br/>
                         <a

@@ -6,7 +6,7 @@ export const Syllabus_btech_16 = [
     }, {
         "BRANCH" : "CIVIL ENGINEERING",
         "Filename": "CE R16 SYLLABUS",
-        "location": "NA"
+        "location": "/academics/CIVIL_B.tech R16 scheme and syllabus.pdf"
     }, {
         "BRANCH" : "ELECTRICAL & ELECTRONICS ENGINEERING",
         "Filename": "EEE R16 SYLLABUS",

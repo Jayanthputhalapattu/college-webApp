@@ -13,17 +13,17 @@ const CE = () => {
 
                     
                     <h3 style={h1Style}>
-      <a href="https://svuniversity.edu.in/departments_engg/civil-engineering">
+      <a  style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/departments_engg/civil-engineering">
         SV University Website Link
       </a>
     </h3> 
     <div className="card">
       <img 
-        src="https://svuniversity.edu.in/storage/2021/12/civil-1024x293.jpg" 
+        src="https://imgur.com/AjaZXV9.jpg" 
         className="card-img-top" 
         alt="Electrical and Electronics Engineering"/>
         <br/>
-        <a href="https://svuniversity.edu.in/storage/2023/02/CIVIL.pdf">
+        <a style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/storage/2023/02/CIVIL.pdf">
         <b>Download Department brochure </b>
         </a> 
     </div>

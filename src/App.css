@@ -118,15 +118,15 @@ body {
     z-index: 997;
     transition: all 0.5s;
     padding: 10px 0;
-    background: #ffffff25;
+    background: #fff;
     
     
   }
   
-  #header.header-scrolled {
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(10px);
-  }
+    #header.header-scrolled {
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      
+    }
   
   #header .logo h1 {
     font-size: 28px;

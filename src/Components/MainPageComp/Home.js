@@ -1,3 +1,6 @@
+import { Col, Container, Row } from "reactstrap";
+import './home.css';
+
 const Home = () =>{
  
 
@@ -10,7 +13,7 @@ const Home = () =>{
       <div className="carousel-inner" role="listbox">
 
       
-        <div className="carousel-item active" style={{backgroundImage: "url(img/img-1.jpeg)"}}>
+        <div className="carousel-item active" style={{backgroundImage: "url(https://imgur.com/lGXeZ90.jpg)"}}>
           <div className="carousel-container">
             <div className="carousel-content animate__animated animate__fadeInUp">
               <h2>Welcome to <span>SVUCE official Website</span></h2>
@@ -24,7 +27,7 @@ const Home = () =>{
         </div>
 
        
-        <div className="carousel-item" style={{backgroundImage: "url(img/img-2.jpeg)"}}>
+        <div className="carousel-item" style={{backgroundImage: "url(https://i.imgur.com/RAnvNC7.jpg)"}}>
           <div className="carousel-container">
             <div className="carousel-content animate__animated animate__fadeInUp">
             <h2>Welcome to <span>SVUCE official Website</span></h2>
@@ -97,6 +100,20 @@ The official Alumni Network of SVU College Of Engineering website is <a href="sv
 
       </div>
 
+    </section>
+
+    <section>
+     <Container style={{ backgroundColor: 'lightblue',paddingTop:6 }}>
+  <Row>
+    <Col>
+    <h5> <a href="/academics/Faculty List.pdf">SVUCE Faculty List(2019-20 to 2022-23) link</a>
+</h5>
+    </Col>
+  </Row>
+</Container>
+      
+      
+      
     </section>
 
    

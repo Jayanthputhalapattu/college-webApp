@@ -9,18 +9,18 @@ const Me = () => {
                     <h1 class="section-title">Mechanical Engineering</h1>
                     
                     <h3 style={{textAlign:"center"}}>
-      <a href="https://svuniversity.edu.in/departments_engg/mechanical-engineering
+      <a style={{textDecoration:'underline'}}  href="https://svuniversity.edu.in/departments_engg/mechanical-engineering
 ">
         SV University Website Link
       </a>
     </h3>
     <div className="card">
       <img 
-        src="https://svuniversity.edu.in/storage/2021/12/SVU-College-of-Engineering-Workshop-1024x293.jpg" 
+        src="https://i.imgur.com/gd2mQmq.jpg" 
         className="card-img-top" 
         alt="..."/>
         <br/>
-        <a href="https://svuniversity.edu.in/storage/2023/02/Mechanical.pdf">
+        <a style={{textDecoration:'underline'}} href="https://svuniversity.edu.in/storage/2023/02/Mechanical.pdf">
         <b>Download Department brochure </b>
         </a> 
     </div>

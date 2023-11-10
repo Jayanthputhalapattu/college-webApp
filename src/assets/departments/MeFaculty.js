@@ -11,7 +11,7 @@ export const MeFaculty = [
         "Name" :"Dr. P. Venkataramaiah",
         "Phone":"	08772289445",
         "Email" :"	pvramaiah@gmail.com",
-        "Details" :"/MecFiles/pvrprofile .pdf"
+        "Details" :"/MecFiles/MEC_VENKATARAMAIAH.pdf"
     },
     {
         "designation" : "Professor",
@@ -59,73 +59,73 @@ export const MeFaculty = [
     },
     {
         "designation": "Academic Consultant",
-        "Name": "Dr. N. BALA SUBRAMANYAM",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "Dr. N. Bala Subramanyam",
+        "Phone": "+91 9989366203",
+        "Email": "dr.balusvu@gmail.com",
+        "Details": "/MecFiles/Dr.N BALASUBRAMANYAM.docx"
       },
       {
         "designation": "Academic Consultant",  
-        "Name": "MADUPURI REDDEIAH",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "M. Reddaiah",
+        "Phone": "(+91)-9642452985",
+        "Email": "madpuri.reddaiah@gmail.com",
+        "Details": "/MecFiles/Reddeiah profile.docx"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "KARANAM PAVAN KUMAR",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "Karanam Pavan Kumar",
+        "Phone": "(+91)-9032962160",
+        "Email": "NA",
+        "Details": "/MecFiles/pavan kumar.docx"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "SIBBALA VANI",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "Sibbala Vani",
+        "Phone": "(+91)-9989074242",
+        "Email": "NA",
+        "Details": "/MecFiles/Smt.S.VANI.docx"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "KONDETI VIJAYALAKSHMI",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "Kondeti Vijayalakshmi",
+        "Phone": "(+91)-9059525737",
+        "Email": "NA",
+        "Details": "/MecFiles/Smt.K.VIJAYA LAKSHMI"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "P. GOPI",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "P. Gopi",
+        "Phone": "(+91)-9704401684",
+        "Email": "NA",
+        "Details": "/MecFiles/p.gopi.docx"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "B. RAGHAVENDRA PRASAD NAYAK",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "B. Raghavendra Prasad NAYAK",
+        "Phone": "(+91)-9849470877",
+        "Email": "NA",
+        "Details": "/MecFiles/Raghavendra prasad nayak B.doc"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "A V N S KIRAN",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "A V N S Kiran",
+        "Phone": "(+91)-9492188838",
+        "Email": "NA",
+        "Details": "/MecFiles/Mr. A.V.N.S. KIRAN.doc"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "D. JYOSTHNA",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "D. Jyosthna",
+        "Phone": "(+91)-9533543221",
+        "Email": "NA",
+        "Details": "/MecFiles/jyosthna.doc"
       },
       {
         "designation": "Academic Consultant",
-        "Name": "T. EBESU",
-        "Phone": "(+91)-",
-        "Email": "",
-        "Details": "NA"
+        "Name": "T. Ebesu",
+        "Phone": "8892524509",
+        "Email": "NA",
+        "Details": "/MecFiles/Mr. T. Ebesu.docx"
       }
     
     
