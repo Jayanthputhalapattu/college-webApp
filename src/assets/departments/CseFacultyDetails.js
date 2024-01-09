@@ -1,15 +1,9 @@
 //eslint-disable-next-line
 export const cseFaculty =[
-    {
-    "designation" : "Professor",
-    "Name" :"Dr. K.V. Madhu Murthy",
-    "Phone":"(+91)-9490507218, (+91)-877-2249191",
-    "Email" :"kvmmurthy@svuce.org",
-    "Details" :"NA"
-},
+    
 {
     "designation" : "Professor",
-    "Name" :"Dr. P. Venkata Subba Reddy",
+    "Name" :"Dr. P. Venkata Subba Reddy (Retired on 30-06-2023)",
     "Phone":"(+91)-9849308146, (+91)-877-3204213",
     "Email" :"vsrpoli@hotmail.com",
     "Details" :"/cseFiles/Dr.P.Venkata_Subba_Reddy.pdf"
@@ -41,5 +35,48 @@ export const cseFaculty =[
     "Phone":"(+91)-9441005225",
     "Email" :"svuvivek@gmail.com",
     "Details" :"NA"  
-}
+},
+{
+    "designation": "Academic Consultant",  
+    "Name": "Dr. Suresh Kumar Reddy K",
+    "Phone": "(+91)-9701207488",
+    "Email": "sureshreddysvu@gmail.com",
+    "Details": "/cseFiles/suresh.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "T. Hemalatha",
+    "Phone": "(+91)-8978227231",
+    "Email": "thirupathuruhemalatha@gmail.com", 
+    "Details": "/cseFiles/hemalatha.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "K Venkata Chalapathi",
+    "Phone": "(+91)-9652621516",
+    "Email": "venkata.chalapathi87@gmail.com",
+    "Details": "/cseFiles/chalapathi.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "J. Sreekanth Reddy",
+    "Phone": "(+91)-9949298398",
+    "Email": "jsreddy99492@gmail.com",
+    "Details": "/cseFiles/sreekanth.pdf" 
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "D. Kalpana Chowdary",
+    "Phone": "(+91)-9618139191",
+    "Email": "dutulurukalapana@gmail.com",
+    "Details": "/cseFiles/kalpana.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "P. Himachandana",
+    "Phone": "(+91)-9642052535",
+    "Email": "hima8022@gmail.com",
+    "Details": "/cseFiles/chandana.pdf"
+  },
+  
 ]

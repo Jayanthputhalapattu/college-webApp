@@ -98,7 +98,14 @@ const Footer = () => {
                     <div className="credits"></div>
                 </div>
                 {/* <Button color="danger" onClick={toggle}>Web Team</Button> */}
-                <Modal isOpen={modal} toggle={toggle} style={{marginTop:100}}>
+                <Modal isOpen={modal} toggle={toggle} style={{
+    marginTop: 100,
+    background: '#ffffff10',
+    boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.37)',
+    backdropFilter: 'blur(10px)', 
+    webkitBackdropFilter: 'blur(4px)', 
+    borderRadius: '15px'  }}>
+    
                     <ModalHeader toggle={toggle}>DEVELOPERS</ModalHeader>
                     <ModalBody>
                       
@@ -107,14 +114,33 @@ const Footer = () => {
                             style={{
                             color: "blue"
                         }}>JAYANTH PUTHALAPATTU,</a>
-                        <span>MERN STACK DEV</span>
+                        <span>FULL STACK DEV</span>
                         <br/>
                         <a
                             href="https://gracious-williams-9a607a.netlify.app/?#"
                             style={{
                             color: "blue"
                         }}>NSR JYOTHISH CHANDRA,</a>
+                        <span>MERN STACK DEV</span>
+                        <br/>
+                        <a
+                            href="https://portfolio-shanu.netlify.app/"
+                            style={{
+                            color: "orange"
+                        }}> SHANAWAZ BAIG,</a>
                         <span>FULL STACK DEV</span>
+                        <br/>
+
+                        <a
+                            href="https://www.linkedin.com/in/sai-vivek-chandika-ab5247230"
+                            style={{
+                            color: "orange"
+                        }}>SAI VIVEK CHANDIKA,</a>
+                        <span>FULL STACK DEV</span>
+                        
+                        
+                        
+
                     </ModalBody>
                     <ModalFooter>
                       

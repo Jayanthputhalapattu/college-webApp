@@ -8,22 +8,24 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap');
 body {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
     color: #4d4643;
   }
   
   a {
-    color: #f03c02;
+    color: #004a79;
   }
   
   a:hover {
-    color: #fd5c28;
+    color: #2395ff;
     text-decoration: none;
   }
   
   h1, h2, h3, h4, h5, h6 {
-    font-family: "Muli", sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
   }
   
   /*--------------------------------------------------------------
@@ -37,7 +39,7 @@ body {
     border-radius: 3px;
     right: 15px;
     bottom: 15px;
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
     transition: display 0.5s ease-in-out;
     z-index: 99999;
@@ -52,7 +54,7 @@ body {
   
   .back-to-top:hover {
     color: #fff;
-    background: #fd5c28;
+    background: #2395ff;
     transition: 0.3s ease-in-out;
   }
   
@@ -81,11 +83,11 @@ body {
   }
   
   #topbar .contact-info a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   #topbar .contact-info i {
-    color: #f03c02;
+    color: #007dcb;
     padding: 4px;
   }
   
@@ -104,7 +106,7 @@ body {
   }
   
   #topbar .social-links a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   /*--------------------------------------------------------------
@@ -117,11 +119,14 @@ body {
     transition: all 0.5s;
     padding: 10px 0;
     background: #fff;
+    
+    
   }
   
-  #header.header-scrolled {
-    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
-  }
+    #header.header-scrolled {
+      box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1);
+      
+    }
   
   #header .logo h1 {
     font-size: 28px;
@@ -134,8 +139,10 @@ body {
   }
   
   #header .logo h1 a, #header .logo h1 a:hover {
-    color: #2b2320;
+    color: #000000;
     text-decoration: none;
+    font-family:  'Helvetica Neue', sans-serif;
+    font-weight: bolder;
   }
   
   #header .logo img {
@@ -152,6 +159,7 @@ body {
     margin: 0;
     padding: 0;
     list-style: none;
+    
   }
   
   .nav-menu > ul > li {
@@ -167,7 +175,7 @@ body {
   .nav-menu a {
     display: block;
     position: relative;
-    color: #65534c;
+    color: #6f84a2;
     padding: 14px 0 15px 0;
     transition: 0.3s;
     font-size: 13px;
@@ -176,7 +184,7 @@ body {
   }
   
   .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
-    color: #f03c02;
+    color: #007dcb;
     text-decoration: none;
   }
   
@@ -210,11 +218,11 @@ body {
     font-size: 13px;
     font-weight: 500;
     text-transform: none;
-    color: #581601;
+    color: #001b73;
   }
   
   .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .nav-menu .drop-down > a:after {
@@ -274,7 +282,7 @@ body {
   }
   
   .mobile-nav-toggle i {
-    color: #65534c;
+    color: #65818fa8;
   }
   
   .mobile-nav {
@@ -311,7 +319,7 @@ body {
   }
   
   .mobile-nav a:hover, .mobile-nav .active > a, .mobile-nav li:hover > a {
-    color: #f03c02;
+    color: #007dcb;
     text-decoration: none;
   }
   
@@ -397,15 +405,18 @@ body {
     top: 110px;
     left: 50px;
     right: 50px;
+    
   }
   
   #hero .carousel-content {
-    background: rgba(28, 23, 21, 0.7);
+    background: rgba(0, 0, 0, 0.252);
     padding: 20px;
     color: #fff;
     -webkit-animation-duration: .5s;
-    animation-duration: .5s;
-    border-top: 5px solid #f03c02;
+    animation-duration: 1s;
+    border-top: 5px solid #007dcb;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
   }
   
   #hero .carousel-content h2 {
@@ -429,11 +440,11 @@ body {
     color: #fff;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
-    border: 2px solid #f03c02;
+    border: 2px solid #007dcb;
   }
   
   #hero .btn-get-started:hover {
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
     text-decoration: none;
   }
@@ -606,7 +617,7 @@ body {
   }
   
   .cta h3 span {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .cta p {
@@ -626,13 +637,13 @@ body {
     transition: 0.4s;
     margin: 10px;
     border-radius: 4px;
-    border: 2px solid #f03c02;
-    color: #f03c02;
+    border: 2px solid #007dcb;
+    color: #007dcb;
     background: #fff;
   }
   
   .cta .cta-btn:hover {
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
   }
   
@@ -661,7 +672,8 @@ body {
     border: 1px solid #ebe6e4;
     height: 200px;
     position: relative;
-    background: #faf9f8;
+    background: #a4d6ff6f;
+    border-radius: 10px;
   }
   
   .services .icon {
@@ -678,7 +690,7 @@ body {
     text-align: center;
     width: 72px;
     height: 72px;
-    background: #f03c02;
+    background: #007dcb;
   }
   
   .services .icon i {
@@ -699,15 +711,15 @@ body {
   
   .services .icon-box:hover .icon {
     background: #fff;
-    border: 2px solid #f03c02;
+    border: 2px solid #007dcb;
   }
   
   .services .icon-box:hover .icon i {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .services .icon-box:hover .title a {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .services .description {
@@ -740,7 +752,7 @@ body {
   
   .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
     color: #fff;
-    background: #f03c02;
+    background: #007dcb;
   }
   
   .portfolio #portfolio-flters li:last-child {
@@ -785,7 +797,7 @@ body {
   }
   
   .portfolio .portfolio-item .portfolio-info .preview-link:hover, .portfolio .portfolio-item .portfolio-info .details-link:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .portfolio .portfolio-item .portfolio-info .details-link {
@@ -881,7 +893,7 @@ body {
   .about-us .content .icon-box i {
     font-size: 48px;
     float: left;
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .about-us .content .icon-box p {
@@ -949,7 +961,7 @@ body {
   }
   
   .team .member .social a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .team .member .social i {
@@ -1018,7 +1030,7 @@ body {
     width: 1px;
     height: 10px;
     transition: .9s;
-    background-color: #f03c02;
+    background-color: #007dcb;
   }
   
   /*--------------------------------------------------------------
@@ -1040,7 +1052,7 @@ body {
   }
   
   .features .nav-link:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .features .nav-link h4 {
@@ -1055,7 +1067,7 @@ body {
   
   .features .nav-link.active {
     box-shadow: 0px 0 15px rgba(0, 0, 0, 0.12);
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .features .tab-pane.active {
@@ -1104,7 +1116,7 @@ body {
   
   .pricing h4 {
     font-size: 42px;
-    color: #f03c02;
+    color: #007dcb;
     font-weight: 500;
     font-family: "Open Sans", sans-serif;
     margin-bottom: 20px;
@@ -1160,12 +1172,12 @@ body {
   }
   
   .pricing .btn-buy:hover {
-    color: #f03c02;
-    border-color: #f03c02;
+    color: #007dcb;
+    border-color: #007dcb;
   }
   
   .pricing .featured {
-    background: #fd5c28;
+    background: #2395ff;
     box-shadow: none;
   }
   
@@ -1184,7 +1196,7 @@ body {
   }
   
   .pricing .featured .btn-buy:hover {
-    color: #f03c02;
+    color: #007dcb;
     background: #fff;
     border-color: #fff;
   }
@@ -1214,13 +1226,13 @@ body {
     transition: 0.4s;
     margin: 10px;
     border-radius: 4px;
-    border: 2px solid #f03c02;
-    color: #f03c02;
+    border: 2px solid #007dcb;
+    color: #007dcb;
     background: #fff;
   }
   
   .cta-pricing .cta-btn:hover {
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
   }
   
@@ -1294,7 +1306,7 @@ body {
   
   .contact .info i {
     font-size: 20px;
-    color: #f03c02;
+    color: #007dcb;
     float: left;
     width: 44px;
     height: 44px;
@@ -1322,7 +1334,7 @@ body {
   }
   
   .contact .info:hover i {
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
   }
   
@@ -1402,7 +1414,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"] {
-    background: #f03c02;
+    background: #007dcb;
     border: 0;
     padding: 10px 24px;
     color: #fff;
@@ -1411,7 +1423,7 @@ body {
   }
   
   .contact .php-email-form button[type="submit"]:hover {
-    background: #fd5c28;
+    background: #2395ff;
   }
   
   @-webkit-keyframes animate-loading {
@@ -1460,7 +1472,7 @@ body {
   }
   
   .portfolio-details .portfolio-details-carousel .owl-dot.active {
-    background-color: #f03c02 !important;
+    background-color: #007dcb !important;
   }
   
   .portfolio-details .portfolio-info h3 {
@@ -1522,7 +1534,7 @@ body {
   }
   
   .blog .entry .entry-title a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .blog .entry .entry-meta {
@@ -1565,7 +1577,7 @@ body {
   
   .blog .entry .entry-content .read-more a {
     display: inline-block;
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
     padding: 6px 20px;
     transition: 0.3s;
@@ -1645,7 +1657,7 @@ body {
   }
   
   .blog .entry .entry-footer a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .blog .entry .entry-footer .cats {
@@ -1750,7 +1762,7 @@ body {
   }
   
   .blog .blog-comments .comment h5 a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .blog .blog-comments .comment h5 .reply {
@@ -1823,7 +1835,7 @@ body {
   }
   
   .blog .blog-comments .reply-form .btn-primary:hover {
-    background-color: #f03c02;
+    background-color: #007dcb;
   }
   
   .blog .blog-pagination {
@@ -1853,8 +1865,8 @@ body {
   }
   
   .blog .blog-pagination li.active, .blog .blog-pagination li:hover {
-    background: #f03c02;
-    border: 1px solid #f03c02;
+    background: #007dcb;
+    border: 1px solid #007dcb;
     border-radius: 4px;
   }
   
@@ -1916,14 +1928,14 @@ body {
     font-size: 16px;
     padding: 0 15px;
     margin: -1px;
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
   }
   
   .blog .sidebar .search-form form button:hover {
-    background: #fd5c28;
+    background: #2395ff;
   }
   
   .blog .sidebar .categories ul {
@@ -1940,7 +1952,7 @@ body {
   }
   
   .blog .sidebar .categories ul a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .blog .sidebar .categories ul a span {
@@ -1970,7 +1982,7 @@ body {
   }
   
   .blog .sidebar .recent-posts h4 a:hover {
-    color: #f03c02;
+    color: #007dcb;
   }
   
   .blog .sidebar .recent-posts time {
@@ -2007,8 +2019,8 @@ body {
   
   .blog .sidebar .tags ul a:hover {
     color: #fff;
-    border: 1px solid #f03c02;
-    background: #f03c02;
+    border: 1px solid #007dcb;
+    background: #007dcb;
   }
   
   .blog .sidebar .tags ul a span {
@@ -2137,7 +2149,7 @@ body {
     background: none;
     font-size: 16px;
     padding: 0 20px;
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
     transition: 0.3s;
     border-radius: 0 4px 4px 0;
@@ -2145,7 +2157,7 @@ body {
   }
   
   #footer .footer-newsletter form input[type="submit"]:hover {
-    background: #fd5c28;
+    background: #2395ff;
   }
   
   #footer .credits {
@@ -2157,7 +2169,7 @@ body {
   #footer .social-links a {
     font-size: 18px;
     display: inline-block;
-    background: #f03c02;
+    background: #007dcb;
     color: #fff;
     line-height: 1;
     padding: 8px 0;
@@ -2170,8 +2182,81 @@ body {
   }
   
   #footer .social-links a:hover {
-    background: #fd5c28;
+    background: #2395ff;
     color: #fff;
     text-decoration: none;
   }
   
+
+#text {
+  font-size: 200px;
+  font-family: 'Rubik Iso', sans-serif; 
+  font-weight: bold;
+  color: rgb(0, 94, 255);
+  align-content: center;
+  text-align: center; 
+  animation: stamp 2s infinite;
+  filter: drop-shadow(2px 4px 6px rgba(0,0,0,0.4));
+}
+
+@keyframes stamp {
+  0%, 20% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  
+  40% {
+    transform: translateY(-20px) scale(0.8);
+    opacity: 0.8;
+  }
+  
+  60% {
+    transform: translateY(-10px) scale(1.2);
+    opacity: 0.4; 
+  }
+  
+  80% {
+    transform: translateY(0px) scale(1);
+    opacity: 1;
+  }
+}
+
+#loader {
+  height: 5px;
+  width: 0%;
+  background-color: #007bff;
+  
+  position: relative;
+  overflow: hidden;
+  
+  animation: expand 2s ease-out;
+}
+
+@keyframes expand {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+.card{
+  max-width: 40rem;
+  justify-content: center;
+  align-items: center;
+  margin-left: 22%;
+  
+}
+.card-img-top {
+  border-radius: 30px;
+}
+
+.courses{
+  max-width: 100rem;
+}
+.green h2 {
+  color: #009345;
+}
+.green h3{
+  color: #009345;
+}
