@@ -122,10 +122,6 @@ const Footer = () => {
                             color: "blue"
                         }}>NSR JYOTHISH CHANDRA,</a>
                         <span>MERN STACK DEV</span>
-                        
-
-                        
-
                         <br/>
                         <a
                             href="https://portfolio-shanu.netlify.app/"
@@ -141,6 +137,15 @@ const Footer = () => {
                             color: "orange"
                         }}>SAI VIVEK CHANDIKA,</a>
                         <span>FULL STACK DEV</span>
+                        <br/>
+                        <a
+                            href="https://www.linkedin.com/in/ssreedhargoud"
+                            style={{
+                            color: "orange"
+                        }}> S SREEDHAR GOUD,</a>
+                        <span>FULL STACK DEV</span>
+                        <br/>
+                        
                         
                         
                         

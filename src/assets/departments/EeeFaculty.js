@@ -30,7 +30,7 @@ export const EeeFaculty = [
         "Details" :"/EeeFiles/TGM CV FOR WEBSITE SEP 2023.docx"
     },
      {
-        "designation" : "Assistant Professor",
+        "designation" : "Associate Professor",
         "Name" :"Dr. V. Usha Reddy",
         "Phone":"(+91)-9441116445, (+91)-877-2249988",
         "Email" :"vyza_ushareddy@yahoo.co.in",
