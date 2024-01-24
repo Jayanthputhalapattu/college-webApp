@@ -122,6 +122,10 @@ const Footer = () => {
                             color: "blue"
                         }}>NSR JYOTHISH CHANDRA,</a>
                         <span>MERN STACK DEV</span>
+                        
+
+                        
+
                         <br/>
                         <a
                             href="https://portfolio-shanu.netlify.app/"
