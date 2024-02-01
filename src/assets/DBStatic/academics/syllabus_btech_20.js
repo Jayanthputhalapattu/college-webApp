@@ -22,6 +22,6 @@ export const Syllabus_btech_20 = [
     }, {
         "BRANCH" : "COMPUTER SCIENCE AND ENGINEERING",
         "Filename": "CSE R20 SYLLABUS",
-        "location" :"/academics/\\"
+        "location" :"/academics/R20 CSE Scheme and Syllabus Final.pdf"
     }
 ]
