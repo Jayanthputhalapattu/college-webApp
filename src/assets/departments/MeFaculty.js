@@ -28,18 +28,25 @@ export const MeFaculty = [
         "Details" :"/MecFiles/MEC_Dr_KRajeshBabu.pdf"
     },
     {
-        "designation" : "Assistant Professor",
+        "designation" : "Associate Professor",
         "Name" :"Dr. K. Dharma Reddy",
-        "Phone":"(+91)-9494697899, (+91)-877-2242129",
+        "Phone":"(+91)-9494697899, (+91)-9493105099",
         "Email" :"kdharmareddy@gmail.com",
         "Details" :"/MecFiles/MEC_Mr_KDharmaReddy.pdf"
     },
     {
-        "designation" : "Assistant Professor",
+        "designation" : "Associate Professor",
         "Name" :"Dr. P. Hema",
         "Phone":"(+91)-9490247265, (+91)-877-2244201",
         "Email" :"hema_pothur@yahoo.com",
         "Details" :"/MecFiles/MEC_Ms_PHema.pdf"
+    },
+     {
+        "designation" : "Associate Professor",
+        "Name" :"Dr. A. Sreenivasulu Reddy",
+        "Phone":"(+91)-9848252269",
+        "Email" :"allampati_sr@rediffmail.com",
+        "Details" :"/MecFiles/MECH_ASR.pdf"
     },
     
     {
@@ -50,13 +57,7 @@ export const MeFaculty = [
         "Details" :"/MecFiles/MEC_Ms_KAruna.pdf"
     },
     
-    {
-        "designation" : "Assistant Professor",
-        "Name" :"Dr. A. Sreenivasulu Reddy",
-        "Phone":"(+91)-9848252269",
-        "Email" :"allampati_sr@rediffmail.com",
-        "Details" :"/MecFiles/MECH_ASR.pdf"
-    },
+   
     {
         "designation": "Academic Consultant",
         "Name": "Dr. N. Bala Subramanyam",

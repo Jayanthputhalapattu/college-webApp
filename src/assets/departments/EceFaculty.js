@@ -45,7 +45,7 @@ export const EceFaculty = [
     {
         "designation" : "Professor",
         "Name" :"Prof. G. Umamaheswara Reddy",
-        "Phone":"(+91)-9177039450",
+        "Phone":"(+91)-917013224147",
         "Email" :"umaskit@gmail.com",
         "Details" :"/EceFiles/my_cv (3)GUMR.pdf"
     },
