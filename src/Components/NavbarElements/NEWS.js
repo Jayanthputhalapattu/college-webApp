@@ -42,9 +42,9 @@ const NEWS = () =>{
            <Row>
               
                <Col>
-           <div style={{marginTop:100,backgroundColor:"#605c5b",borderTop:"6px solid #f03c02" ,padding:"10px 20px 10px 20px",marginBottom:100}}> 
+           <div style={{marginTop:100,backgroundColor:"#d0efff",borderTop:"6px solid blue" ,padding:"10px 20px 10px 20px",marginBottom:100}}> 
              
-             <h2 style={{color:"white"}}>NEWS
+             <h2 style={{color:"blue"}}>NEWS
              {/* FA EDIT ICON */}
              {user.admin?(
              <>

@@ -47,7 +47,7 @@ export const EceFaculty = [
         "Name" :"Prof. G. Umamaheswara Reddy",
         "Phone":"(+91)-9177039450",
         "Email" :"umaskit@gmail.com",
-        "Details" :"/EceFiles/ECE_UMR.pdf"
+        "Details" :"/EceFiles/my_cv (3)GUMR.pdf"
     },
     {
         "designation" : "Professor",
@@ -57,26 +57,77 @@ export const EceFaculty = [
         "Details" :"/EceFiles/TSR Brief_CV edited_25-01-2017.pdf"
     },
     {
-        "designation" : "Associate Professor",
+        "designation" : "Professor",
         "Name" :"Dr. S. Swarnalatha",
         "Phone":"(+91)-9490981637",
         "Email" :"swarnasvu09@gmail.com",
         "Details" :"/EceFiles/ECE_Smt_SSwarnalatha.pdf"
     },
     {
-        "designation" : "Assistant Professor",
+        "designation" : "Professor",
+        "Name" :"	Dr. I. Kullayamma",
+        "Phone":"(+91)-9440488810",
+        "Email" :"ikusuma96@gmail.com",
+        "Details" :"/EceFiles/my_cv.pdf"
+    },
+    {
+        "designation" : "Associate Professor",
         "Name" :"Dr. D. Gowri Shankar Reddy",
         "Phone":"(+91)-8686677877",
         "Email" :"gowri.durgam@gmail.com",
         "Details" :"/EceFiles/ECE_Sri_GowriShankarReddy.pdf"
     },
     {
-        "designation" : "Assistant Professor",
-        "Name" :"	Dr. I. Kullayamma",
-        "Phone":"(+91)-9440488810",
-        "Email" :"ikusuma96@gmail.com",
-        "Details" :"/EceFiles/ECE_Smt_IKullayamma.pdf"
+        "designation" : "Academic Consultant",
+        "Name" :"I. Prathibha",
+        "Phone":"(+91)-9390639601",
+        "Email" :"ilaprathibha@gmail.com",
+        "Details" :"/EceFiles/prathiba.pdf"
     },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"Subramanyam Kundali",
+        "Phone":"(+91)-9440935243",
+        "Email" :"subramanyam.kundili@gmail.com",
+        "Details" :"/EceFiles/subbu.pdf"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"Shaik Jameer",
+        "Phone":"(+91)-9494698902",
+        "Email" :"roshanjameer87@gmail.com",
+        "Details" :"/EceFiles/jameer.pdf"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"Chiranjeevi Althi",
+        "Phone":"(+91)-9885528825",
+        "Email" :"purnimaalthi@gmail.com",
+        "Details" :"/EceFiles/chiranjivi.pdf"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"Anumolu lasmika",
+        "Phone":"(+91)-9542781318",
+        "Email" :"anumolu.Lasmika@gmailcom",
+        "Details" :"/EceFiles/lasmika.pdf"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"G. Shirisha",
+        "Phone":"(+91)-8297153484",
+        "Email" :"sirishaece73@gmail.com",
+        "Details" :"/EceFiles/sirisha.pdf"
+    },
+    {
+        "designation" : "Academic Consultant",
+        "Name" :"Machireddy Chandana Priya",
+        "Phone":"(+91)-8374119020",
+        "Email" :"chandana.priya52@gmail.com",
+        "Details" :"/EceFiles/chandanapriya.pdf"
+    },
+    
+    
 
 ]
 

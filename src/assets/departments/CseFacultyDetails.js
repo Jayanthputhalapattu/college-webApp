@@ -1,19 +1,7 @@
 //eslint-disable-next-line
 export const cseFaculty =[
-    {
-    "designation" : "Professor",
-    "Name" :"Dr. K.V. Madhu Murthy",
-    "Phone":"(+91)-9490507218, (+91)-877-2249191",
-    "Email" :"kvmmurthy@svuce.org",
-    "Details" :"NA"
-},
-{
-    "designation" : "Professor",
-    "Name" :"Dr. P. Venkata Subba Reddy",
-    "Phone":"(+91)-9849308146, (+91)-877-3204213",
-    "Email" :"vsrpoli@hotmail.com",
-    "Details" :"/cseFiles/Dr.P.Venkata_Subba_Reddy.pdf"
-},
+    
+
 {
     "designation" : "Professor",
     "Name" :"Dr. Ch.D.V. Subba Rao",
@@ -23,23 +11,66 @@ export const cseFaculty =[
 },
 {
     "designation" : "Professor",
-    "Name" :"Prof. M. Humera Khanam",
+    "Name" :"Dr. M. Humera Khanam",
     "Phone":"(+91)-9490923045, 08772248810",
     "Email" :"humera.svec@gmail.com",
     "Details" :"/cseFiles/Profile-MHK-21-7-2018.pdf"
 },
 ,{
-    "designation" : "Asst.Professor",
+    "designation" : "Associate Professor",
     "Name" :"Dr. N. Usha Rani",
-    "Phone":"",
-    "Email" :"",
-    "Details" :"NA"  
+    "Phone":"(+91)-9493564899",
+    "Email" :"usharani.ur@gmail.com,  usha552@yahoo.com",
+    "Details" :"/cseFiles/Profile-NUR.pdf"  
 }
 ,{
-    "designation" : "Asst.Professor",
+    "designation" : "Associate Professor",
     "Name" :"Dr. D. Vivekananda Reddy",
-    "Phone":"(+91)-9441005225",
+    "Phone":"(+91)-9441005225, (+91)-7981269983",
     "Email" :"svuvivek@gmail.com",
-    "Details" :"NA"  
-}
+    "Details" :"/cseFiles/Profile-DVR.pdf"  
+},
+{
+    "designation": "Academic Consultant",  
+    "Name": "Dr. Suresh Kumar Reddy K",
+    "Phone": "(+91)-9701207488",
+    "Email": "sureshreddysvu@gmail.com",
+    "Details": "/cseFiles/suresh.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "Ms. T. Hemalatha",
+    "Phone": "(+91)-8978227231",
+    "Email": "thirupathuruhemalatha@gmail.com", 
+    "Details": "/cseFiles/hemalatha.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "Mr. K Venkata Chalapathi",
+    "Phone": "(+91)-9652621516",
+    "Email": "venkata.chalapathi87@gmail.com",
+    "Details": "/cseFiles/chalapathi.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "Mr. J. Sreekanth Reddy",
+    "Phone": "(+91)-9949298398",
+    "Email": "jsreddy99492@gmail.com",
+    "Details": "/cseFiles/sreekanth.pdf" 
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "Mrs. D. Kalpana Chowdary",
+    "Phone": "(+91)-9618139191",
+    "Email": "dutulurukalapana@gmail.com",
+    "Details": "/cseFiles/kalpana.pdf"
+  },
+  {
+    "designation": "Academic Consultant",
+    "Name": "Ms. P. Hima Chandana",
+    "Phone": "(+91)-9642052535",
+    "Email": "hima8022@gmail.com",
+    "Details": "/cseFiles/chandana.pdf"
+  },
+  
 ]

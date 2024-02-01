@@ -1,7 +1,9 @@
-import React, {useEffect, useState} from "react";
-import {Button} from "reactstrap";
-import { Academic_regulations_btech } from "../assets/DBStatic/academics/academic_regulations";
-import { Syllabus_btech } from "../assets/DBStatic/academics/syllabus_btech";
+import React, { useEffect, useState } from "react";
+import { Button } from "reactstrap";
+
+import { Syllabus_btech_18 } from "../assets/DBStatic/academics/syllabus_btech_18";
+import { Syllabus_btech_16 } from "../assets/DBStatic/academics/syllabus_btech_16";
+import { Syllabus_btech_20 } from "../assets/DBStatic/academics/syllabus_btech_20";
 import { Syllabus_mtech } from "../assets/DBStatic/academics/syllabus_mtech";
 const Navba = () => {
     const [isLoggedIn,
@@ -54,7 +56,9 @@ const Navba = () => {
                             <li className="drop-down">
                                 <a >About</a>
                                 <ul>
-                                   <li><a href="/principals">Principals</a></li>
+                                    <li><a href="/about">About College</a></li>
+                                    <li><a href="/principal">Principal</a></li>
+                                    <li><a href="/viceprincipal">Vice Principal</a></li>
                                 </ul>
                             </li>
                             <li className="drop-down">
@@ -64,7 +68,7 @@ const Navba = () => {
                                         <a href="/courses_offered">Courses Offered</a>
                                     </li>
                                     <li>
-                                        <a href="/linktopdf">Academic Calendar</a>
+                                        <a href="/calender">Academic Calendar</a>
                                     </li>
 
                                     <li className="drop-down">
@@ -76,16 +80,16 @@ const Navba = () => {
                                                 <ul>
                                                     <li><a href="/academics/B.Tech.(CBCS) Regulations, 2018(R-2018).pdf">B.Tech.(CBCS) Regulations, 2018(R-2018)</a></li>
                                                     <li ><a href="/academics/Modifications of BTech Regulations on Open Electives.pdf">Modifications of BTech Regulations on Open Electives</a></li>
-                                                     <li><a href="/academics/B.Tech Regulations ,2020(R-20).pdf">B.Tech Regulations ,2020(R-20)</a></li>
-                                                     <li><a href="/academics/regulations/SVUCE_Regulations_2010.pdf">SVUCE Regulations 2010</a></li>
+                                                    <li><a href="/academics/B.Tech Regulations ,2020(R-20).pdf">B.Tech Regulations ,2020(R-20)</a></li>
+                                                    <li><a href="/academics/regulations/SVUCE_Regulations_2010.pdf">SVUCE Regulations 2010</a></li>
                                                 </ul>
-                                                
+
                                             </li>
                                             <li className="drop-down">
                                                 <a>M.Tech</a>
                                                 <ul>
-                                               <li><a href="/academics/M.Tech (CBCS) Regulations,2018.pdf">M.Tech (CBCS) Regulations,2018</a></li>
-                                            </ul>
+                                                    <li><a href="/academics/M.Tech (CBCS) Regulations,2018.pdf">M.Tech (CBCS) Regulations,2018</a></li>
+                                                </ul>
                                             </li>
                                         </ul>
                                     </li>
@@ -95,28 +99,60 @@ const Navba = () => {
                                             <li className="drop-down">
                                                 <a>B.Tech</a>
                                                 <ul>
-                                                {Syllabus_btech.map((arb)=>(
-                                                    <li>
-                                                        <a href={arb.location}>{arb.Filename}</a>
+                                                    <li className="drop-down">
+                                                        <a > R-16 </a>
+                                                        <ul>
+                                                            {(Syllabus_btech_16).map((arb) => (
+                                                                <li>
+                                                                    <a href={arb.location}>{arb.Filename}</a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+
                                                     </li>
-                                                ))}
+                                                    <li className="drop-down">
+                                                        <a > R-18 </a>
+                                                        <ul>
+                                                            {(Syllabus_btech_18).map((arb) => (
+                                                                <li>
+                                                                    <a href={arb.location}>{arb.Filename}</a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+
+                                                    </li>
+                                                    <li className="drop-down">
+                                                        <a > R-20 </a>
+                                                        <ul>
+                                                            {(Syllabus_btech_20).map((arb) => (
+                                                                <li>
+                                                                    <a href={arb.location}>{arb.Filename}</a>
+                                                                </li>
+                                                            ))}
+                                                        </ul>
+
+                                                    </li>
                                                 </ul>
+
+
                                             </li>
+
                                             <li className="drop-down">
                                                 <a>M.Tech</a>
+                                                <li className="drop-down"></li>
                                                 <ul>
-                                                 {Syllabus_mtech.map((arb)=>(
-                                                    <li>
-                                                        <a href={arb.location}>{arb.Filename}</a>
-                                                    </li>
-                                                ))}
+                                                    {Syllabus_mtech.map((arb) => (
+                                                        <li>
+                                                            <a href={arb.location}>{arb.Filename}</a>
+                                                        </li>
+                                                    ))}
                                                 </ul>
-                                               
+
                                             </li>
                                         </ul>
                                     </li>
                                     <li >
-                                        <a href="/timetables.pdf">Time Tables</a>
+                                        <a href="/timetables">Time Tables</a>
                                     </li>
                                 </ul>
                             </li>
@@ -151,6 +187,9 @@ const Navba = () => {
                                     <li>
                                         <a href="/CSE">Computer Science & Engineering</a>
                                     </li>
+                                    <li>
+                                        <a href="/SC">Sciences and Humanities</a>
+                                    </li>
                                 </ul>
                             </li>
                             {/* <li className="drop-down"><a href="examinations">Examinations</a>
@@ -178,7 +217,10 @@ const Navba = () => {
                                         <a href="/healthcenter">Health Centre</a>
                                     </li>
                                     <li>
-                                        <a href="/nss_ncc">NSS / NCC</a>
+                                        <a href="/nss_ncc">NCC</a>
+                                    </li>
+                                    <li>
+                                        <a href="/nss">NSS</a>
                                     </li>
                                     {/* <li><a href="/student_support_cell">Student Support Cell</a></li>
             <li><a href="/grievances_redressal_cell">Grievances Redressal Cell</a></li> */}
@@ -212,10 +254,10 @@ const Navba = () => {
                                         <Button
                                             onClick={handleLOgout}
                                             style={{
-                                            marginTop: 10,
-                                            fontSize: 15,
-                                            padding: "6px 10px"
-                                        }}>LOGOUT</Button>
+                                                marginTop: 10,
+                                                fontSize: 15,
+                                                padding: "6px 10px"
+                                            }}>LOGOUT</Button>
 
                                     </li>
                                 )
