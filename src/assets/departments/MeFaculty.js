@@ -30,7 +30,7 @@ export const MeFaculty = [
     {
         "designation" : "Associate Professor",
         "Name" :"Dr. K. Dharma Reddy",
-        "Phone":"(+91)-9494697899, (+91)-877-2242129",
+        "Phone":"(+91)-9494697899, (+91)-9493105099",
         "Email" :"kdharmareddy@gmail.com",
         "Details" :"/MecFiles/MEC_Mr_KDharmaReddy.pdf"
     },
