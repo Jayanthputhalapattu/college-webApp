@@ -19,9 +19,7 @@ const Cse = () => {
         className="card-img-top" 
         alt="Electrical and Electronics Engineering"/>
         <br/>
-        <a style={{textDecoration:'underline'}}  href="https://svuniversity.edu.in/storage/2023/02/CSE.pdf">
-        <b>Download Department brochure </b>
-        </a> 
+        
     </div>
     <h3 style={{color:'Green'}}>
                       About C.S.E Department
@@ -102,7 +100,7 @@ const Cse = () => {
    </li>
    <li>
 
-<b>PS02</b>Ability to design, develop and implement problems of current research areas.
+<b>PS02:</b>Ability to design, develop and implement problems of current research areas.
 
 
     </li>
