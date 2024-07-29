@@ -159,7 +159,7 @@ Power Electronic devices considering the environmental and societal needs.<br/>
                     <tbody>
                         <tr>
                             <th>HOD</th>
-                            <td>Dr. T. Gowri Manoahar</td>
+                            <td>Dr. Ch. Chengaiah</td>
                         </tr>
                         <tr>
                             <th>Chairman BOS(PG)</th>
